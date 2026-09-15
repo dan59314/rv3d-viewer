@@ -42,7 +42,7 @@
 
 ## 遠端與失敗處理
 
-- 建議使用 GitHub 私人儲存庫 `https://github.com/dan59314/rv3d-viewer` 作為 `origin`。
+- 已設定 GitHub 私人儲存庫 `https://github.com/dan59314/rv3d-viewer` 作為 `origin`。
 - 不得擅自改為公開、改變遠端目的地或擴大帳號／協作者權限。
 - 遠端已有新提交、登入失敗或發生衝突時，保留本機提交與標籤並回報。
   不得覆蓋遠端，也不得在未成功驗證前宣稱已備份。
