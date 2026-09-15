@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>Rv3dViewer.ReliefPlugin</AssemblyName>
+    <Platforms>x64</Platforms>
+    <PlatformTarget>x64</PlatformTarget>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Rv3dViewer.Plugin.WinForms\Rv3dViewer.Plugin.WinForms.csproj" />
+    <ProjectReference Include="..\..\src\Rv3dViewer.Core\Rv3dViewer.Core.csproj" />
+    <ProjectReference Include="..\..\src\Rv3dViewer.Plugin.Abstractions\Rv3dViewer.Plugin.Abstractions.csproj" />
+    <ProjectReference Include="..\..\src\Rv3dViewer.Rendering.OpenGL\Rv3dViewer.Rendering.OpenGL.csproj" />
+    <PackageReference Include="SkiaSharp" Version="3.119.4" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Win32" Version="3.119.4" />
+    <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.29.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="plugin.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="THIRD-PARTY-NOTICES.md" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="LICENSE-Depth-Anything-V2.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="LICENSE-Face-Parsing.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="LICENSE-MODNet.txt" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="Models\depth-anything-v2-small-uint8.onnx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>depth-anything-v2-small-uint8.onnx</TargetPath>
+    </Content>
+    <Content Include="Models\face-parsing-resnet18.onnx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>face-parsing-resnet18.onnx</TargetPath>
+    </Content>
+    <Content Include="Models\modnet-photographic.onnx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>modnet-photographic.onnx</TargetPath>
+    </Content>
+  </ItemGroup>
+  <Target Name="DeployToViewerPluginFolder" AfterTargets="Build" Condition="'$(SkipPluginDeploy)' != 'true'">
+    <PropertyGroup>
+      <ViewerPluginDirectory>$(MSBuildThisFileDirectory)..\..\src\Rv3dViewer.App\bin\x64\$(Configuration)\net8.0-windows\win-x64\PlugIn\ReliefPlugin</ViewerPluginDirectory>
+    </PropertyGroup>
+    <ItemGroup>
+      <PluginDeploymentFiles Include="$(TargetDir)*.*" />
+      <PluginDeploymentFiles Include="$(TargetDir)runtimes\win-x64\native\libSkiaSharp.dll" />
+      <PluginDeploymentFiles Include="$(TargetDir)runtimes\win-x64\native\onnxruntime*.dll" />
+      <TutorialDeploymentFiles Include="$(MSBuildProjectDirectory)\Tutorials\**\*"
+                               Condition="'$(Configuration)' == 'Release' and '$(SkipPluginDeploy)' != 'true'" />
+    </ItemGroup>
+    <MakeDir Directories="$(ViewerPluginDirectory)" />
+    <Copy SourceFiles="@(PluginDeploymentFiles)"
+          DestinationFiles="@(PluginDeploymentFiles->'$(ViewerPluginDirectory)\%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="true" />
+    <MakeDir Directories="$(ViewerPluginDirectory)\Tutorials" Condition="'@(TutorialDeploymentFiles)' != ''" />
+    <Copy SourceFiles="@(TutorialDeploymentFiles)"
+          DestinationFiles="@(TutorialDeploymentFiles->'$(ViewerPluginDirectory)\Tutorials\%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="false" Condition="'@(TutorialDeploymentFiles)' != ''" />
+  </Target>
+</Project>

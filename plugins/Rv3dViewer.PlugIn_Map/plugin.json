@@ -1,0 +1,11 @@
+{
+  "id": "rv3dviewer.map-editor",
+  "name": "貼圖編輯器",
+  "description": "以獨立 Mesh ViewPort 編輯 PBR 多圖層貼圖、Mask、映射與取樣設定",
+  "version": "2.0.0",
+  "assembly": "Rv3dViewer.MapPlugin.dll",
+  "entryType": "Rv3dViewer.MapPlugin.MapPlugin",
+  "hostApiVersion": "1.0",
+  "enabled": true,
+  "menuOrder": 30
+}

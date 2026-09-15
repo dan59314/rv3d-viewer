@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Platforms>x64</Platforms>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Rv3dViewer.Core\Rv3dViewer.Core.csproj" />
+    <PackageReference Include="OpenTK" Version="4.9.4" />
+    <PackageReference Include="OpenTK.GLControl" Version="4.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Rv3dViewer.App\OpenGlRenderer.cs" Link="OpenGlRenderer.cs" />
+    <Compile Include="..\Rv3dViewer.App\RadianceHdrLoader.cs" Link="RadianceHdrLoader.cs" />
+  </ItemGroup>
+</Project>

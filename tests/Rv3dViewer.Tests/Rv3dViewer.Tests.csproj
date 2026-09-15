@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <Platforms>AnyCPU;x64</Platforms>
+    <PlatformTarget Condition="'$(Platform)' == 'x64'">x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Rv3dViewer.Core\Rv3dViewer.Core.csproj" />
+    <ProjectReference Include="..\..\src\Rv3dViewer.Plugin.Abstractions\Rv3dViewer.Plugin.Abstractions.csproj" />
+    <ProjectReference Include="..\..\src\Rv3dViewer.App\Rv3dViewer.App.csproj" />
+    <ProjectReference Include="..\..\src\Rv3dViewer.Rendering.OpenGL\Rv3dViewer.Rendering.OpenGL.csproj" />
+    <ProjectReference Include="..\..\plugins\Rv3dViewer.PlugIn_ColdPlate\Rv3dViewer.PlugIn_ColdPlate.csproj" />
+    <ProjectReference Include="..\..\plugins\Rv3dViewer.PlugIn_HighQualityRender\Rv3dViewer.PlugIn_HighQualityRender.csproj" />
+    <ProjectReference Include="..\..\plugins\Rv3dViewer.PlugIn_CameraAnimation\Rv3dViewer.PlugIn_CameraAnimation.csproj" />
+    <ProjectReference Include="..\..\plugins\Rv3dViewer.PlugIn_Map\Rv3dViewer.PlugIn_Map.csproj" />
+    <ProjectReference Include="..\..\plugins\Rv3dViewer.PlugIn_RVInteriorDesign\Rv3dViewer.PlugIn_RVInteriorDesign.csproj" />
+  </ItemGroup>
+</Project>

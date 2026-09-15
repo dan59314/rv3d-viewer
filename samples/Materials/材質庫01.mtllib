@@ -1,0 +1,602 @@
+{
+  "formatVersion": 1,
+  "materials": [
+    {
+      "name": "Copper_C110",
+      "baseColor": {
+        "x": 0.96,
+        "y": 0.23,
+        "z": 0.045,
+        "w": 1
+      },
+      "metallic": 0.6,
+      "roughness": 0.049629167,
+      "normalScale": 1,
+      "ambientOcclusion": 1,
+      "emissive": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "emissiveStrength": 1,
+      "opacity": 1,
+      "doubleSided": false,
+      "renderMode": "Auto",
+      "alphaCutoff": 0.5,
+      "transmission": 0.95,
+      "indexOfRefraction": 1.5,
+      "thickness": 0.05,
+      "refractionStrength": 0.04,
+      "dispersion": 0,
+      "absorptionColor": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "textures": {},
+      "textureStacks": {}
+    },
+    {
+      "name": "O_Ring_Rubber",
+      "baseColor": {
+        "x": 0.008,
+        "y": 0.012,
+        "z": 0.016,
+        "w": 1
+      },
+      "metallic": 0,
+      "roughness": 0.5,
+      "normalScale": 1,
+      "ambientOcclusion": 1,
+      "emissive": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "emissiveStrength": 1,
+      "opacity": 1,
+      "doubleSided": false,
+      "renderMode": "Auto",
+      "alphaCutoff": 0.5,
+      "transmission": 0.95,
+      "indexOfRefraction": 1.5,
+      "thickness": 0.05,
+      "refractionStrength": 0.04,
+      "dispersion": 0,
+      "absorptionColor": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "textures": {},
+      "textureStacks": {}
+    },
+    {
+      "name": "T_Global_Color_Paint_Material",
+      "baseColor": {
+        "x": 0.7529412,
+        "y": 0.2509804,
+        "z": 0,
+        "w": 1
+      },
+      "metallic": 0,
+      "roughness": 0.07432941,
+      "normalScale": 1,
+      "ambientOcclusion": 1,
+      "emissive": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "emissiveStrength": 1,
+      "opacity": 1,
+      "doubleSided": false,
+      "renderMode": "Auto",
+      "alphaCutoff": 0.5,
+      "transmission": 0.95,
+      "indexOfRefraction": 1.5,
+      "thickness": 0.05,
+      "refractionStrength": 0.04,
+      "dispersion": 0,
+      "absorptionColor": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "textures": {
+        "BaseColor": {
+          "path": "Assets\\Textures\\T-Global_350x140_a39a4a8d.jpg",
+          "enabled": true,
+          "uvChannel": 0,
+          "wrap": "Repeat",
+          "filter": "LinearMipmapLinear"
+        }
+      },
+      "textureStacks": {
+        "BaseColor": {
+          "semantic": "BaseColor",
+          "enabled": true,
+          "layers": [
+            {
+              "id": "d356d666-12bc-4b71-88cd-96368b20d186",
+              "name": "BaseColor",
+              "kind": "Image",
+              "path": "Assets\\Textures\\T-Global_350x140_a39a4a8d.jpg",
+              "enabled": true,
+              "opacity": 1,
+              "blendMode": "Normal",
+              "color": {
+                "x": 1,
+                "y": 1,
+                "z": 1,
+                "w": 1
+              },
+              "mapping": {
+                "mode": "Uv",
+                "space": "Object",
+                "axis": "Auto",
+                "uvChannel": 0,
+                "triplanarBlend": 4,
+                "autoFit": false
+              },
+              "transform": {
+                "offsetX": 0,
+                "offsetY": 0,
+                "scaleX": 1,
+                "scaleY": 1,
+                "lockAspectRatio": true,
+                "rotationDegrees": 0,
+                "pivotX": 0.5,
+                "pivotY": 0.5,
+                "flipX": false,
+                "flipY": false,
+                "swapUv": false
+              },
+              "sampling": {
+                "wrap": "Repeat",
+                "filter": "LinearMipmapLinear",
+                "anisotropy": 4
+              },
+              "channels": {
+                "colorSpace": "Srgb",
+                "source": "Rgba",
+                "invert": false,
+                "brightness": 0,
+                "contrast": 1,
+                "gamma": 1,
+                "hueDegrees": 0,
+                "saturation": 1,
+                "tint": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1,
+                  "w": 1
+                },
+                "premultipliedAlpha": false
+              },
+              "mask": {
+                "enabled": false,
+                "path": "",
+                "channel": "Luminance",
+                "invert": false,
+                "strength": 1,
+                "followLayerTransform": true,
+                "transform": {
+                  "offsetX": 0,
+                  "offsetY": 0,
+                  "scaleX": 1,
+                  "scaleY": 1,
+                  "lockAspectRatio": true,
+                  "rotationDegrees": 0,
+                  "pivotX": 0.5,
+                  "pivotY": 0.5,
+                  "flipX": false,
+                  "flipY": false,
+                  "swapUv": false
+                }
+              },
+              "normal": {
+                "strength": 1,
+                "convention": "OpenGl",
+                "invertX": false,
+                "invertY": false
+              },
+              "bump": {
+                "strength": 1,
+                "bias": 0.5,
+                "invert": false,
+                "source": "Luminance"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Glass_NoTex",
+      "baseColor": {
+        "x": 0.015,
+        "y": 0.16,
+        "z": 0.65,
+        "w": 1
+      },
+      "metallic": 0,
+      "roughness": 0.01,
+      "normalScale": 1,
+      "ambientOcclusion": 1,
+      "emissive": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "emissiveStrength": 1,
+      "opacity": 0.5,
+      "doubleSided": false,
+      "renderMode": "Transparent",
+      "alphaCutoff": 0.5,
+      "transmission": 0.95,
+      "indexOfRefraction": 1.2,
+      "thickness": 0.1,
+      "refractionStrength": 0.02,
+      "dispersion": 0,
+      "absorptionColor": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "textures": {},
+      "textureStacks": {}
+    },
+    {
+      "name": "Glass_Tex (2)",
+      "baseColor": {
+        "x": 0.7529412,
+        "y": 1,
+        "z": 1,
+        "w": 1
+      },
+      "metallic": 0.8,
+      "roughness": 0.2,
+      "normalScale": 1,
+      "ambientOcclusion": 1,
+      "emissive": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "emissiveStrength": 1,
+      "opacity": 0.3,
+      "doubleSided": false,
+      "renderMode": "Transparent",
+      "alphaCutoff": 0.95,
+      "transmission": 0.98,
+      "indexOfRefraction": 1.5,
+      "thickness": 0.2,
+      "refractionStrength": 0.25,
+      "dispersion": 0,
+      "absorptionColor": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "textures": {
+        "BaseColor": {
+          "path": "Assets\\Textures\\FishWor1_c6e93e2b.bmp",
+          "enabled": true,
+          "uvChannel": 0,
+          "wrap": "Repeat",
+          "filter": "LinearMipmapLinear"
+        }
+      },
+      "textureStacks": {
+        "BaseColor": {
+          "semantic": "BaseColor",
+          "enabled": true,
+          "layers": [
+            {
+              "id": "a76168b4-1eb9-4aee-8f59-478c4f735d1b",
+              "name": "BaseColor",
+              "kind": "Image",
+              "path": "Assets\\Textures\\FishWor1_c6e93e2b.bmp",
+              "enabled": true,
+              "opacity": 1,
+              "blendMode": "Normal",
+              "color": {
+                "x": 1,
+                "y": 1,
+                "z": 1,
+                "w": 1
+              },
+              "mapping": {
+                "mode": "Uv",
+                "space": "Object",
+                "axis": "Auto",
+                "uvChannel": 0,
+                "triplanarBlend": 4,
+                "autoFit": false
+              },
+              "transform": {
+                "offsetX": 0,
+                "offsetY": 0,
+                "scaleX": 1,
+                "scaleY": 1,
+                "lockAspectRatio": true,
+                "rotationDegrees": 0,
+                "pivotX": 0.5,
+                "pivotY": 0.5,
+                "flipX": false,
+                "flipY": false,
+                "swapUv": false
+              },
+              "sampling": {
+                "wrap": "Repeat",
+                "filter": "LinearMipmapLinear",
+                "anisotropy": 4
+              },
+              "channels": {
+                "colorSpace": "Srgb",
+                "source": "Rgba",
+                "invert": false,
+                "brightness": 0,
+                "contrast": 1,
+                "gamma": 1,
+                "hueDegrees": 0,
+                "saturation": 1,
+                "tint": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1,
+                  "w": 1
+                },
+                "premultipliedAlpha": false
+              },
+              "mask": {
+                "enabled": false,
+                "path": "",
+                "channel": "Luminance",
+                "invert": false,
+                "strength": 1,
+                "followLayerTransform": true,
+                "transform": {
+                  "offsetX": 0,
+                  "offsetY": 0,
+                  "scaleX": 1,
+                  "scaleY": 1,
+                  "lockAspectRatio": true,
+                  "rotationDegrees": 0,
+                  "pivotX": 0.5,
+                  "pivotY": 0.5,
+                  "flipX": false,
+                  "flipY": false,
+                  "swapUv": false
+                }
+              },
+              "normal": {
+                "strength": 1,
+                "convention": "OpenGl",
+                "invertX": false,
+                "invertY": false
+              },
+              "bump": {
+                "strength": 1,
+                "bias": 0.5,
+                "invert": false,
+                "source": "Luminance"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Gold",
+      "baseColor": {
+        "x": 1,
+        "y": 0.5019608,
+        "z": 0,
+        "w": 1
+      },
+      "metallic": 0.8,
+      "roughness": 0.5,
+      "normalScale": 1,
+      "ambientOcclusion": 1,
+      "emissive": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "emissiveStrength": 1,
+      "opacity": 1,
+      "doubleSided": false,
+      "renderMode": "Opaque",
+      "alphaCutoff": 0.5,
+      "transmission": 0.95,
+      "indexOfRefraction": 1.5,
+      "thickness": 0.05,
+      "refractionStrength": 0.04,
+      "dispersion": 0,
+      "absorptionColor": {
+        "x": 1,
+        "y": 1,
+        "z": 0
+      },
+      "textures": {},
+      "textureStacks": {}
+    },
+    {
+      "name": "Polished rhodium plated white gold",
+      "baseColor": {
+        "x": 0.9,
+        "y": 0.92,
+        "z": 0.94,
+        "w": 1
+      },
+      "metallic": 1,
+      "roughness": 0.085,
+      "normalScale": 1,
+      "ambientOcclusion": 1,
+      "emissive": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "emissiveStrength": 1,
+      "opacity": 1,
+      "doubleSided": true,
+      "renderMode": "Auto",
+      "alphaCutoff": 0.5,
+      "transmission": 0.95,
+      "indexOfRefraction": 1.5,
+      "thickness": 0.05,
+      "refractionStrength": 0.04,
+      "dispersion": 0,
+      "absorptionColor": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "textures": {},
+      "textureStacks": {}
+    },
+    {
+      "name": "Diamond optical IOR 2.417",
+      "baseColor": {
+        "x": 0.995,
+        "y": 0.998,
+        "z": 1,
+        "w": 1
+      },
+      "metallic": 0,
+      "roughness": 0.012,
+      "normalScale": 1,
+      "ambientOcclusion": 1,
+      "emissive": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "emissiveStrength": 1,
+      "opacity": 1,
+      "doubleSided": false,
+      "renderMode": "Glass",
+      "alphaCutoff": 0.5,
+      "transmission": 1,
+      "indexOfRefraction": 2.417,
+      "thickness": 0.0035,
+      "refractionStrength": 0.04,
+      "dispersion": 0.044,
+      "absorptionColor": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "textures": {},
+      "textureStacks": {}
+    },
+    {
+      "name": "Rose pink sapphire",
+      "baseColor": {
+        "x": 1,
+        "y": 0.43,
+        "z": 0.58,
+        "w": 1
+      },
+      "metallic": 0,
+      "roughness": 0.025,
+      "normalScale": 1,
+      "ambientOcclusion": 1,
+      "emissive": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "emissiveStrength": 1,
+      "opacity": 1,
+      "doubleSided": false,
+      "renderMode": "Glass",
+      "alphaCutoff": 0.5,
+      "transmission": 1,
+      "indexOfRefraction": 1.77,
+      "thickness": 0.0008,
+      "refractionStrength": 0.04,
+      "dispersion": 0.018,
+      "absorptionColor": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "textures": {},
+      "textureStacks": {}
+    },
+    {
+      "name": "Small clear accent diamonds",
+      "baseColor": {
+        "x": 0.995,
+        "y": 0.998,
+        "z": 1,
+        "w": 1
+      },
+      "metallic": 0,
+      "roughness": 0.012,
+      "normalScale": 1,
+      "ambientOcclusion": 1,
+      "emissive": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "emissiveStrength": 1,
+      "opacity": 1,
+      "doubleSided": false,
+      "renderMode": "Glass",
+      "alphaCutoff": 0.5,
+      "transmission": 1,
+      "indexOfRefraction": 2.417,
+      "thickness": 0.0005,
+      "refractionStrength": 0.04,
+      "dispersion": 0.044,
+      "absorptionColor": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "textures": {},
+      "textureStacks": {}
+    },
+    {
+      "name": "Material",
+      "baseColor": {
+        "x": 1,
+        "y": 1,
+        "z": 1,
+        "w": 1
+      },
+      "metallic": 0,
+      "roughness": 1,
+      "normalScale": 1,
+      "ambientOcclusion": 1,
+      "emissive": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "emissiveStrength": 1,
+      "opacity": 1,
+      "doubleSided": false,
+      "renderMode": "Auto",
+      "alphaCutoff": 0.5,
+      "transmission": 0.95,
+      "indexOfRefraction": 1.5,
+      "thickness": 0.05,
+      "refractionStrength": 0.04,
+      "dispersion": 0,
+      "absorptionColor": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "textures": {},
+      "textureStacks": {}
+    }
+  ]
+}

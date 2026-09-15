@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>Rv3dViewer.SamplePlugin</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Rv3dViewer.Plugin.Abstractions\Rv3dViewer.Plugin.Abstractions.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="plugin.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <Target Name="DeployToViewerPluginFolder" AfterTargets="Build">
+    <PropertyGroup>
+      <ViewerPluginDirectory>$(MSBuildThisFileDirectory)..\..\src\Rv3dViewer.App\bin\x64\$(Configuration)\net8.0-windows\win-x64\PlugIn\SamplePlugin</ViewerPluginDirectory>
+    </PropertyGroup>
+    <ItemGroup>
+      <PluginDeploymentFiles Include="$(TargetDir)*.*" />
+      <TutorialDeploymentFiles Include="$(MSBuildProjectDirectory)\Tutorials\**\*"
+                               Condition="'$(Configuration)' == 'Release' and '$(SkipPluginDeploy)' != 'true'" />
+    </ItemGroup>
+    <MakeDir Directories="$(ViewerPluginDirectory)" />
+    <Copy SourceFiles="@(PluginDeploymentFiles)"
+          DestinationFolder="$(ViewerPluginDirectory)"
+          SkipUnchangedFiles="true" />
+    <MakeDir Directories="$(ViewerPluginDirectory)\Tutorials" Condition="'@(TutorialDeploymentFiles)' != ''" />
+    <Copy SourceFiles="@(TutorialDeploymentFiles)"
+          DestinationFiles="@(TutorialDeploymentFiles->'$(ViewerPluginDirectory)\Tutorials\%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="false" Condition="'@(TutorialDeploymentFiles)' != ''" />
+  </Target>
+</Project>

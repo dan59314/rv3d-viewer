@@ -1,0 +1,11 @@
+{
+  "id": "rv3dviewer.high-quality-render",
+  "name": "高品質Render",
+  "description": "使用多重取樣 CPU 路徑追蹤輸出高解析度 PBR PNG 圖片",
+  "version": "1.0.0",
+  "assembly": "Rv3dViewer.HighQualityRenderPlugin.dll",
+  "entryType": "Rv3dViewer.HighQualityRenderPlugin.HighQualityRenderPlugin",
+  "hostApiVersion": "1.0",
+  "enabled": true,
+  "menuOrder": 40
+}

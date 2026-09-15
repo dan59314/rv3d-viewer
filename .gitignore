@@ -1,0 +1,47 @@
+# Visual Studio and .NET build outputs
+.vs/
+**/.vs/
+**/bin/
+**/obj/
+**/.venv/
+**/__pycache__/
+*.pyc
+artifacts/
+.build/
+tmp/
+TestResults/
+**/test_output/
+**/output/
+*.user
+*.suo
+*.log
+
+# Local downloads, runtime libraries and model weights
+下載/
+libraries/
+models/
+*.pth
+*.pt
+*.onnx
+*.ckpt
+
+# Large media and generated/user project data
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.glb
+*.gltf
+*.bin
+*.ply
+*.obj
+*.stl
+*.rv3dproj
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pfx
+*.snk

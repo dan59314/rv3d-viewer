@@ -1,0 +1,4928 @@
+{
+  "version": 4,
+  "name": "Camera Animation",
+  "durationSeconds": 33,
+  "framesPerSecond": 30,
+  "loop": true,
+  "keyframes": [
+    {
+      "id": "ea8f1e85-1678-4163-8ec2-9d929219c61c",
+      "name": "\u95DC\u9375\u5F71\u683C 14",
+      "timeSeconds": 0,
+      "from": {
+        "x": -35.487354,
+        "y": 98.7724,
+        "z": 341.10275
+      },
+      "to": {
+        "x": 21.094467,
+        "y": 40.614445,
+        "z": -6.1563244
+      },
+      "positionControl": null,
+      "targetControl": null,
+      "up": {
+        "x": 0.026226811,
+        "y": 0.9866122,
+        "z": -0.16096152
+      },
+      "rollDegrees": 0,
+      "fieldOfViewDegrees": 60,
+      "nearPlane": 0.01,
+      "farPlane": 10000,
+      "lights": [
+        {
+          "id": "efd90af2-e9f3-46c4-8f6e-c313339feea7",
+          "name": "Direct Light",
+          "enabled": false,
+          "type": "Directional",
+          "position": {
+            "x": 135.95073,
+            "y": 142.23079,
+            "z": 119.05268
+          },
+          "direction": {
+            "x": -0.7054656,
+            "y": -0.67606723,
+            "z": -0.21272376
+          },
+          "color": {
+            "x": 0,
+            "y": 0.5019608,
+            "z": 0
+          },
+          "intensity": 10,
+          "range": 0.01,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "87e0b040-814d-4612-bdc8-a8f184bd6b66",
+          "name": "Spot Light",
+          "enabled": false,
+          "type": "Spot",
+          "position": {
+            "x": 60.690376,
+            "y": 234.3279,
+            "z": 139.58865
+          },
+          "direction": {
+            "x": -0.17451565,
+            "y": -0.7390895,
+            "z": -0.65060824
+          },
+          "color": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "intensity": 100,
+          "range": 300,
+          "fallInDegrees": 30,
+          "fallOffDegrees": 70
+        },
+        {
+          "id": "13ab435a-2fa6-4c51-8540-72bdd83cbec7",
+          "name": "PointLight0",
+          "enabled": false,
+          "type": "Point",
+          "position": {
+            "x": -87.12732,
+            "y": 174.8035,
+            "z": -119.16384
+          },
+          "direction": {
+            "x": 0.7676224,
+            "y": -0.5132689,
+            "z": -0.38381118
+          },
+          "color": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "intensity": 30,
+          "range": 200,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "3f71febd-4c5a-4605-b0d7-606b0961fa40",
+          "name": "PointLight1",
+          "enabled": false,
+          "type": "Point",
+          "position": {
+            "x": 0,
+            "y": -50,
+            "z": -200
+          },
+          "direction": {
+            "x": 0.7601932,
+            "y": -0.52690876,
+            "z": -0.3800966
+          },
+          "color": {
+            "x": 1,
+            "y": 1,
+            "z": 0
+          },
+          "intensity": 50,
+          "range": 210,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        }
+      ],
+      "models": [
+        {
+          "modelId": "646a2bc7-52f9-47d1-8559-23828ade7357",
+          "name": "Circular_Cold_Plate_100mm",
+          "visible": true,
+          "position": {
+            "x": 0,
+            "y": 0.30581146,
+            "z": -10.851084
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "1d8079b9-337c-44aa-abc5-6b97fe846b7f",
+          "name": "Cold Plate",
+          "visible": true,
+          "position": {
+            "x": -117.57871,
+            "y": 0,
+            "z": 94.27353
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": -44.998596,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "b077f338-06a2-4b3b-afbd-23d12680317d",
+          "name": "\u6D6E\u96D5_\u8001\u4EBA",
+          "visible": true,
+          "position": {
+            "x": -1.6645933,
+            "y": 70,
+            "z": -122.53849
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "d2631215-85e2-4409-84fc-cabdec60a56b",
+          "name": "\u6D6E\u96D5_TgBoy",
+          "visible": true,
+          "position": {
+            "x": -50.058666,
+            "y": 94.91016,
+            "z": -88.12816
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "d46787d1-747f-4df3-9fe2-e87cad4ecee7",
+          "name": "\u6D6E\u96D5_TgGirl",
+          "visible": true,
+          "position": {
+            "x": 47.73497,
+            "y": 98.344185,
+            "z": -85.11867
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "848a114d-e208-4863-ad90-84e428e7f11f",
+          "name": "\u6D6E\u96D5_\u98B1\u98A8\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 92.494194,
+            "y": 40.000004,
+            "z": 23.889282
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "c30adea7-c2a9-427a-9695-6ce44631cfa2",
+          "name": "\u6D6E\u96D5_J\u5370\u5EA6\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 196.6583,
+            "y": 74.99999,
+            "z": -3.4572775
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "c15d3fb2-2521-4271-9720-fb8df92e12b4",
+          "name": "\u6D6E\u96D5_FaceMakeupsnz_100x56.2mm",
+          "visible": true,
+          "position": {
+            "x": -163.67075,
+            "y": 2.2024276,
+            "z": -20
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        }
+      ],
+      "easing": 3
+    },
+    {
+      "id": "2df61b2d-0daf-486c-b03b-020a68c0c607",
+      "name": "\u63D2\u5165\u5F71\u683C 17",
+      "timeSeconds": 2,
+      "from": {
+        "x": -58.725937,
+        "y": 123.60017,
+        "z": 262.20825
+      },
+      "to": {
+        "x": -12.488966,
+        "y": 76.94929,
+        "z": -19.754194
+      },
+      "positionControl": {
+        "x": -36.675858,
+        "y": 100.66212,
+        "z": 238.04642
+      },
+      "targetControl": {
+        "x": 4.3027506,
+        "y": 58.781868,
+        "z": -12.955259
+      },
+      "up": {
+        "x": 0.026187956,
+        "y": 0.98693216,
+        "z": -0.15899424
+      },
+      "rollDegrees": 0,
+      "fieldOfViewDegrees": 60,
+      "nearPlane": 0.01,
+      "farPlane": 10000,
+      "lights": [
+        {
+          "id": "efd90af2-e9f3-46c4-8f6e-c313339feea7",
+          "name": "Direct Light",
+          "enabled": false,
+          "type": "Directional",
+          "position": {
+            "x": 137.81053,
+            "y": 144.27057,
+            "z": 119.05268
+          },
+          "direction": {
+            "x": -0.689561,
+            "y": -0.69341,
+            "z": -0.20901743
+          },
+          "color": {
+            "x": 0,
+            "y": 0.5019608,
+            "z": 0
+          },
+          "intensity": 10,
+          "range": 0.01,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "87e0b040-814d-4612-bdc8-a8f184bd6b66",
+          "name": "Spot Light",
+          "enabled": false,
+          "type": "Spot",
+          "position": {
+            "x": 60.021637,
+            "y": 232.20538,
+            "z": 139.58865
+          },
+          "direction": {
+            "x": -0.17451565,
+            "y": -0.7390895,
+            "z": -0.65060824
+          },
+          "color": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "intensity": 100,
+          "range": 300,
+          "fallInDegrees": 30,
+          "fallOffDegrees": 70
+        },
+        {
+          "id": "13ab435a-2fa6-4c51-8540-72bdd83cbec7",
+          "name": "PointLight0",
+          "enabled": false,
+          "type": "Point",
+          "position": {
+            "x": -86.03189,
+            "y": 170.62686,
+            "z": -110.84854
+          },
+          "direction": {
+            "x": 0.76762235,
+            "y": -0.5132689,
+            "z": -0.38381118
+          },
+          "color": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "intensity": 30,
+          "range": 200,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "3f71febd-4c5a-4605-b0d7-606b0961fa40",
+          "name": "PointLight1",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": 0,
+            "y": -50,
+            "z": -200
+          },
+          "direction": {
+            "x": 0.7601932,
+            "y": -0.52690876,
+            "z": -0.3800966
+          },
+          "color": {
+            "x": 1,
+            "y": 1,
+            "z": 0
+          },
+          "intensity": 50,
+          "range": 210,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        }
+      ],
+      "models": [
+        {
+          "modelId": "646a2bc7-52f9-47d1-8559-23828ade7357",
+          "name": "Circular_Cold_Plate_100mm",
+          "visible": true,
+          "position": {
+            "x": 0,
+            "y": 3.3914483,
+            "z": -10.3250675
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": 0,
+            "y": 51.916874,
+            "z": -1.8898559
+          }
+        },
+        {
+          "modelId": "1d8079b9-337c-44aa-abc5-6b97fe846b7f",
+          "name": "Cold Plate",
+          "visible": true,
+          "position": {
+            "x": -117.51117,
+            "y": 0,
+            "z": 91.44609
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": -40.963417,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": -115.93452,
+            "y": 0,
+            "z": 45.355507
+          }
+        },
+        {
+          "modelId": "b077f338-06a2-4b3b-afbd-23d12680317d",
+          "name": "\u6D6E\u96D5_\u8001\u4EBA",
+          "visible": true,
+          "position": {
+            "x": -1.248445,
+            "y": 70,
+            "z": -108.98242
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": -1.248445,
+            "y": 70,
+            "z": -115.443146
+          }
+        },
+        {
+          "modelId": "d2631215-85e2-4409-84fc-cabdec60a56b",
+          "name": "\u6D6E\u96D5_TgBoy",
+          "visible": true,
+          "position": {
+            "x": -93.34297,
+            "y": 133.40866,
+            "z": -105.71756
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": -75.44348,
+            "y": 112.29564,
+            "z": -95.90683
+          }
+        },
+        {
+          "modelId": "d46787d1-747f-4df3-9fe2-e87cad4ecee7",
+          "name": "\u6D6E\u96D5_TgGirl",
+          "visible": true,
+          "position": {
+            "x": 85.25054,
+            "y": 133.63828,
+            "z": -102.50331
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8
+          },
+          "positionControl": {
+            "x": 70.52588,
+            "y": 113.69821,
+            "z": -93.17115
+          }
+        },
+        {
+          "modelId": "848a114d-e208-4863-ad90-84e428e7f11f",
+          "name": "\u6D6E\u96D5_\u98B1\u98A8\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 88.2049,
+            "y": 40,
+            "z": 32.661148
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": 76.22985,
+            "y": 40,
+            "z": 57.124153
+          }
+        },
+        {
+          "modelId": "c30adea7-c2a9-427a-9695-6ce44631cfa2",
+          "name": "\u6D6E\u96D5_J\u5370\u5EA6\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 186.66846,
+            "y": 75,
+            "z": -3.1115184
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": 158.70193,
+            "y": 75,
+            "z": -2.0807493
+          }
+        }
+      ],
+      "easing": 3
+    },
+    {
+      "id": "2a7be881-ab98-4bfe-ab67-daee12369580",
+      "name": "\u95DC\u9375\u5F71\u683C 15",
+      "timeSeconds": 3.5,
+      "from": {
+        "x": -55.83085,
+        "y": 119.9148,
+        "z": 157.69943
+      },
+      "to": {
+        "x": -25.214901,
+        "y": 90.41705,
+        "z": -26.123869
+      },
+      "positionControl": {
+        "x": -49.421608,
+        "y": 114.18765,
+        "z": 162.7804
+      },
+      "targetControl": {
+        "x": -18.851933,
+        "y": 83.68317,
+        "z": -22.939032
+      },
+      "up": {
+        "x": 0.025682341,
+        "y": 0.98770314,
+        "z": -0.15421724
+      },
+      "rollDegrees": 0,
+      "fieldOfViewDegrees": 60,
+      "nearPlane": 0.01,
+      "farPlane": 10000,
+      "lights": [
+        {
+          "id": "efd90af2-e9f3-46c4-8f6e-c313339feea7",
+          "name": "Direct Light",
+          "enabled": false,
+          "type": "Directional",
+          "position": {
+            "x": 139.67033,
+            "y": 146.31036,
+            "z": 119.05268
+          },
+          "direction": {
+            "x": -0.6732651,
+            "y": -0.7103592,
+            "z": -0.20519246
+          },
+          "color": {
+            "x": 0,
+            "y": 0.5019608,
+            "z": 0
+          },
+          "intensity": 10,
+          "range": 0.01,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "87e0b040-814d-4612-bdc8-a8f184bd6b66",
+          "name": "Spot Light",
+          "enabled": false,
+          "type": "Spot",
+          "position": {
+            "x": 59.3529,
+            "y": 230.08286,
+            "z": 139.58865
+          },
+          "direction": {
+            "x": -0.17451565,
+            "y": -0.7390894,
+            "z": -0.65060824
+          },
+          "color": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "intensity": 100,
+          "range": 300,
+          "fallInDegrees": 30,
+          "fallOffDegrees": 70
+        },
+        {
+          "id": "13ab435a-2fa6-4c51-8540-72bdd83cbec7",
+          "name": "PointLight0",
+          "enabled": false,
+          "type": "Point",
+          "position": {
+            "x": -84.93647,
+            "y": 166.45021,
+            "z": -102.53324
+          },
+          "direction": {
+            "x": 0.76762235,
+            "y": -0.5132689,
+            "z": -0.38381118
+          },
+          "color": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "intensity": 30,
+          "range": 200,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "3f71febd-4c5a-4605-b0d7-606b0961fa40",
+          "name": "PointLight1",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": 0,
+            "y": -50,
+            "z": -200
+          },
+          "direction": {
+            "x": 0.7601932,
+            "y": -0.52690876,
+            "z": -0.3800966
+          },
+          "color": {
+            "x": 1,
+            "y": 1,
+            "z": 0
+          },
+          "intensity": 50,
+          "range": 210,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        }
+      ],
+      "models": [
+        {
+          "modelId": "646a2bc7-52f9-47d1-8559-23828ade7357",
+          "name": "Circular_Cold_Plate_100mm",
+          "visible": true,
+          "position": {
+            "x": 0,
+            "y": 6.974173,
+            "z": -9.717115
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": 0,
+            "y": 5.182811,
+            "z": -10.021091
+          }
+        },
+        {
+          "modelId": "1d8079b9-337c-44aa-abc5-6b97fe846b7f",
+          "name": "Cold Plate",
+          "visible": true,
+          "position": {
+            "x": -117.4416,
+            "y": 0,
+            "z": 88.19113
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": -36.135,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "b077f338-06a2-4b3b-afbd-23d12680317d",
+          "name": "\u6D6E\u96D5_\u8001\u4EBA",
+          "visible": true,
+          "position": {
+            "x": -1.6645933,
+            "y": 70,
+            "z": -96.6956
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": -1.248445,
+            "y": 70,
+            "z": -102.5217
+          }
+        },
+        {
+          "modelId": "d2631215-85e2-4409-84fc-cabdec60a56b",
+          "name": "\u6D6E\u96D5_TgBoy",
+          "visible": true,
+          "position": {
+            "x": -121.65661,
+            "y": 179.36223,
+            "z": -127.37108
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": -111.242455,
+            "y": 154.52167,
+            "z": -115.52829
+          }
+        },
+        {
+          "modelId": "d46787d1-747f-4df3-9fe2-e87cad4ecee7",
+          "name": "\u6D6E\u96D5_TgGirl",
+          "visible": true,
+          "position": {
+            "x": 106.6336,
+            "y": 178.10448,
+            "z": -122.44731
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8
+          },
+          "positionControl": {
+            "x": 99.9752,
+            "y": 153.57835,
+            "z": -111.83547
+          }
+        },
+        {
+          "modelId": "848a114d-e208-4863-ad90-84e428e7f11f",
+          "name": "\u6D6E\u96D5_\u98B1\u98A8\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 83.89142,
+            "y": 40,
+            "z": 41.49162
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "c30adea7-c2a9-427a-9695-6ce44631cfa2",
+          "name": "\u6D6E\u96D5_J\u5370\u5EA6\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 176.64845,
+            "y": 75,
+            "z": -2.7861874
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        }
+      ],
+      "easing": 3
+    },
+    {
+      "id": "56f1cf55-f516-46f5-8a38-b3fc0276d08e",
+      "name": "\u63D2\u5165\u5F71\u683C 17",
+      "timeSeconds": 4,
+      "from": {
+        "x": -43.01326,
+        "y": 106.68555,
+        "z": 57.536514
+      },
+      "to": {
+        "x": -28.251413,
+        "y": 93.10597,
+        "z": -29.7663
+      },
+      "positionControl": {
+        "x": -41.56527,
+        "y": 105.73035,
+        "z": 60.44453
+      },
+      "targetControl": {
+        "x": -26.733158,
+        "y": 91.76151,
+        "z": -27.945084
+      },
+      "up": {
+        "x": 0.025261277,
+        "y": 0.98844254,
+        "z": -0.14947657
+      },
+      "rollDegrees": 0,
+      "fieldOfViewDegrees": 60,
+      "nearPlane": 0.01,
+      "farPlane": 10000,
+      "lights": [
+        {
+          "id": "efd90af2-e9f3-46c4-8f6e-c313339feea7",
+          "name": "Direct Light",
+          "enabled": false,
+          "type": "Directional",
+          "position": {
+            "x": 142.1287,
+            "y": 149.00664,
+            "z": 119.05268
+          },
+          "direction": {
+            "x": -0.65079534,
+            "y": -0.7324718,
+            "z": -0.19987632
+          },
+          "color": {
+            "x": 0,
+            "y": 0.5019608,
+            "z": 0
+          },
+          "intensity": 10,
+          "range": 0.01,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "87e0b040-814d-4612-bdc8-a8f184bd6b66",
+          "name": "Spot Light",
+          "enabled": false,
+          "type": "Spot",
+          "position": {
+            "x": 58.46894,
+            "y": 227.27724,
+            "z": 139.58865
+          },
+          "direction": {
+            "x": -0.17451565,
+            "y": -0.7390894,
+            "z": -0.65060824
+          },
+          "color": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "intensity": 100,
+          "range": 300,
+          "fallInDegrees": 30,
+          "fallOffDegrees": 70
+        },
+        {
+          "id": "13ab435a-2fa6-4c51-8540-72bdd83cbec7",
+          "name": "PointLight0",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": -83.488495,
+            "y": 160.92937,
+            "z": -91.541756
+          },
+          "direction": {
+            "x": 0.76762235,
+            "y": -0.5132689,
+            "z": -0.38381118
+          },
+          "color": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "intensity": 30,
+          "range": 200,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "3f71febd-4c5a-4605-b0d7-606b0961fa40",
+          "name": "PointLight1",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": 0,
+            "y": -50,
+            "z": -200
+          },
+          "direction": {
+            "x": 0.7601932,
+            "y": -0.52690876,
+            "z": -0.3800966
+          },
+          "color": {
+            "x": 1,
+            "y": 1,
+            "z": 0
+          },
+          "intensity": 50,
+          "range": 210,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        }
+      ],
+      "easing": 3
+    },
+    {
+      "id": "5ec6d583-54a0-4a56-a44d-21a7ca9ba515",
+      "name": "\u95DC\u9375\u5F71\u683C 16",
+      "timeSeconds": 6.5,
+      "from": {
+        "x": -45.909245,
+        "y": 108.59594,
+        "z": 51.720486
+      },
+      "to": {
+        "x": -31.287926,
+        "y": 95.79489,
+        "z": -33.408733
+      },
+      "positionControl": {
+        "x": -44.46125,
+        "y": 107.64075,
+        "z": 54.6285
+      },
+      "targetControl": {
+        "x": -29.769669,
+        "y": 94.45043,
+        "z": -31.587517
+      },
+      "up": {
+        "x": 0.024786163,
+        "y": 0.98919576,
+        "z": -0.1444902
+      },
+      "rollDegrees": 0,
+      "fieldOfViewDegrees": 60,
+      "nearPlane": 0.01,
+      "farPlane": 10000,
+      "lights": [
+        {
+          "id": "efd90af2-e9f3-46c4-8f6e-c313339feea7",
+          "name": "Direct Light",
+          "enabled": true,
+          "type": "Directional",
+          "position": {
+            "x": 144.58707,
+            "y": 151.70291,
+            "z": 119.05268
+          },
+          "direction": {
+            "x": -0.62766033,
+            "y": -0.7538358,
+            "z": -0.19435589
+          },
+          "color": {
+            "x": 0,
+            "y": 0.5019608,
+            "z": 0
+          },
+          "intensity": 10,
+          "range": 0.01,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "87e0b040-814d-4612-bdc8-a8f184bd6b66",
+          "name": "Spot Light",
+          "enabled": true,
+          "type": "Spot",
+          "position": {
+            "x": 57.584976,
+            "y": 224.47162,
+            "z": 139.58865
+          },
+          "direction": {
+            "x": -0.17451565,
+            "y": -0.7390894,
+            "z": -0.65060824
+          },
+          "color": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "intensity": 100,
+          "range": 300,
+          "fallInDegrees": 30,
+          "fallOffDegrees": 70
+        },
+        {
+          "id": "13ab435a-2fa6-4c51-8540-72bdd83cbec7",
+          "name": "PointLight0",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": -82.04053,
+            "y": 155.40852,
+            "z": -80.55027
+          },
+          "direction": {
+            "x": 0.7676224,
+            "y": -0.5132689,
+            "z": -0.38381118
+          },
+          "color": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "intensity": 30,
+          "range": 200,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "3f71febd-4c5a-4605-b0d7-606b0961fa40",
+          "name": "PointLight1",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": 0,
+            "y": -50,
+            "z": -200
+          },
+          "direction": {
+            "x": 0.7601932,
+            "y": -0.52690876,
+            "z": -0.3800966
+          },
+          "color": {
+            "x": 1,
+            "y": 1,
+            "z": 0
+          },
+          "intensity": 50,
+          "range": 210,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        }
+      ],
+      "models": [
+        {
+          "modelId": "b077f338-06a2-4b3b-afbd-23d12680317d",
+          "name": "\u6D6E\u96D5_\u8001\u4EBA",
+          "visible": true,
+          "position": {
+            "x": -1.6645933,
+            "y": 70,
+            "z": -81.71419
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": -1.6645933,
+            "y": 70,
+            "z": -89.204895
+          }
+        },
+        {
+          "modelId": "d2631215-85e2-4409-84fc-cabdec60a56b",
+          "name": "\u6D6E\u96D5_TgBoy",
+          "visible": true,
+          "position": {
+            "x": -70.84473,
+            "y": 80,
+            "z": -132.43488
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": -92.900665,
+            "y": 80,
+            "z": -124.52803
+          }
+        },
+        {
+          "modelId": "d46787d1-747f-4df3-9fe2-e87cad4ecee7",
+          "name": "\u6D6E\u96D5_TgGirl",
+          "visible": true,
+          "position": {
+            "x": 64.186295,
+            "y": 80,
+            "z": -129.10571
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8
+          },
+          "positionControl": {
+            "x": 85.40994,
+            "y": 80,
+            "z": -125.77651
+          }
+        },
+        {
+          "modelId": "c30adea7-c2a9-427a-9695-6ce44631cfa2",
+          "name": "\u6D6E\u96D5_J\u5370\u5EA6\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 197.40395,
+            "y": 75,
+            "z": -4.1614985
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": 158.70193,
+            "y": 75,
+            "z": -2.0807493
+          }
+        },
+        {
+          "modelId": "848a114d-e208-4863-ad90-84e428e7f11f",
+          "name": "\u6D6E\u96D5_\u98B1\u98A8\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 92.45968,
+            "y": 40,
+            "z": 24.248299
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": 76.22985,
+            "y": 40,
+            "z": 57.124153
+          }
+        }
+      ],
+      "easing": 3
+    },
+    {
+      "id": "b3c07ee7-b363-4493-b7a1-6e823ef7d496",
+      "name": "\u63D2\u5165\u5F71\u683C 13",
+      "timeSeconds": 10,
+      "from": {
+        "x": -77.64148,
+        "y": 133.71661,
+        "z": -65.160675
+      },
+      "to": {
+        "x": -73.337006,
+        "y": 133.03055,
+        "z": -83.84848
+      },
+      "positionControl": {
+        "x": -65.96076,
+        "y": 121.823364,
+        "z": 11.450796
+      },
+      "targetControl": {
+        "x": -52.312466,
+        "y": 114.41272,
+        "z": -58.62861
+      },
+      "up": {
+        "x": 0.008024927,
+        "y": 0.9993607,
+        "z": -0.03484014
+      },
+      "rollDegrees": 0,
+      "fieldOfViewDegrees": 60,
+      "nearPlane": 0.01,
+      "farPlane": 10000,
+      "lights": [
+        {
+          "id": "efd90af2-e9f3-46c4-8f6e-c313339feea7",
+          "name": "Direct Light",
+          "enabled": true,
+          "type": "Directional",
+          "position": {
+            "x": 178.63004,
+            "y": 189.04039,
+            "z": 119.05268
+          },
+          "direction": {
+            "x": -0.23823912,
+            "y": -0.9663989,
+            "z": -0.096516095
+          },
+          "color": {
+            "x": 0,
+            "y": 0.5019608,
+            "z": 0
+          },
+          "intensity": 10,
+          "range": 0.01,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "87e0b040-814d-4612-bdc8-a8f184bd6b66",
+          "name": "Spot Light",
+          "enabled": true,
+          "type": "Spot",
+          "position": {
+            "x": 45.344032,
+            "y": 185.61984,
+            "z": 139.58865
+          },
+          "direction": {
+            "x": -0.17451565,
+            "y": -0.7390895,
+            "z": -0.65060824
+          },
+          "color": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "intensity": 100,
+          "range": 300,
+          "fallInDegrees": 30,
+          "fallOffDegrees": 70
+        },
+        {
+          "id": "13ab435a-2fa6-4c51-8540-72bdd83cbec7",
+          "name": "PointLight0",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": -61.98922,
+            "y": 78.95678,
+            "z": 71.65793
+          },
+          "direction": {
+            "x": 0.7676224,
+            "y": -0.5132689,
+            "z": -0.38381118
+          },
+          "color": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "intensity": 30,
+          "range": 200,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "3f71febd-4c5a-4605-b0d7-606b0961fa40",
+          "name": "PointLight1",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": 0,
+            "y": -50,
+            "z": -200
+          },
+          "direction": {
+            "x": 0.7601932,
+            "y": -0.52690876,
+            "z": -0.3800966
+          },
+          "color": {
+            "x": 1,
+            "y": 1,
+            "z": 0
+          },
+          "intensity": 50,
+          "range": 210,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        }
+      ],
+      "models": [
+        {
+          "modelId": "646a2bc7-52f9-47d1-8559-23828ade7357",
+          "name": "Circular_Cold_Plate_100mm",
+          "visible": true,
+          "position": {
+            "x": 0,
+            "y": 63.148056,
+            "z": -3.8335366
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": 0,
+            "y": 63.148056,
+            "z": -3.8335366
+          }
+        },
+        {
+          "modelId": "1d8079b9-337c-44aa-abc5-6b97fe846b7f",
+          "name": "Cold Plate",
+          "visible": true,
+          "position": {
+            "x": -127.86975,
+            "y": 0,
+            "z": 73.554276
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 39.20181,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "b077f338-06a2-4b3b-afbd-23d12680317d",
+          "name": "\u6D6E\u96D5_\u8001\u4EBA",
+          "visible": true,
+          "position": {
+            "x": -1.6645935,
+            "y": 70.00001,
+            "z": -81.71419
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "d2631215-85e2-4409-84fc-cabdec60a56b",
+          "name": "\u6D6E\u96D5_TgBoy",
+          "visible": true,
+          "position": {
+            "x": -70.844734,
+            "y": 80.00001,
+            "z": -132.43489
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "d46787d1-747f-4df3-9fe2-e87cad4ecee7",
+          "name": "\u6D6E\u96D5_TgGirl",
+          "visible": true,
+          "position": {
+            "x": 64.1863,
+            "y": 80.00001,
+            "z": -129.10573
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 0.8000001,
+            "y": 0.8000001,
+            "z": 0.8000001
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "848a114d-e208-4863-ad90-84e428e7f11f",
+          "name": "\u6D6E\u96D5_\u98B1\u98A8\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 93.99537,
+            "y": 40.000004,
+            "z": 8.277227
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "c30adea7-c2a9-427a-9695-6ce44631cfa2",
+          "name": "\u6D6E\u96D5_J\u5370\u5EA6\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 164.23325,
+            "y": 75,
+            "z": 27.166378
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "c15d3fb2-2521-4271-9720-fb8df92e12b4",
+          "name": "\u6D6E\u96D5_FaceMakeupsnz_100x56.2mm",
+          "visible": true,
+          "position": {
+            "x": -196.65295,
+            "y": 74.12328,
+            "z": -20
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": -188.9444,
+            "y": 52.46587,
+            "z": -20
+          }
+        }
+      ],
+      "easing": 3
+    },
+    {
+      "id": "b8d34510-8c8d-4018-8d40-c2b96bda569a",
+      "name": "\u95DC\u9375\u5F71\u683C 2",
+      "timeSeconds": 13,
+      "from": {
+        "x": 60.53177,
+        "y": 147.27652,
+        "z": -77.01021
+      },
+      "to": {
+        "x": 67.98827,
+        "y": 138.96387,
+        "z": -121.10997
+      },
+      "positionControl": {
+        "x": 55.94839,
+        "y": 137.28635,
+        "z": 164.28879
+      },
+      "targetControl": {
+        "x": 11.487586,
+        "y": 8.845398,
+        "z": 11.947458
+      },
+      "up": {
+        "x": 0.030464005,
+        "y": 0.98316324,
+        "z": -0.1801721
+      },
+      "rollDegrees": 0,
+      "fieldOfViewDegrees": 60,
+      "nearPlane": 0.01,
+      "farPlane": 10000,
+      "lights": [
+        {
+          "id": "efd90af2-e9f3-46c4-8f6e-c313339feea7",
+          "name": "Direct Light",
+          "enabled": true,
+          "type": "Directional",
+          "position": {
+            "x": 178.63004,
+            "y": 189.04039,
+            "z": 119.05268
+          },
+          "direction": {
+            "x": -0.69358957,
+            "y": -0.7162888,
+            "z": -0.07657639
+          },
+          "color": {
+            "x": 0,
+            "y": 0.5019608,
+            "z": 0
+          },
+          "intensity": 10,
+          "range": 0.01,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "87e0b040-814d-4612-bdc8-a8f184bd6b66",
+          "name": "Spot Light",
+          "enabled": true,
+          "type": "Spot",
+          "position": {
+            "x": 45.344032,
+            "y": 185.61984,
+            "z": 139.58865
+          },
+          "direction": {
+            "x": -0.17451565,
+            "y": -0.7390895,
+            "z": -0.65060824
+          },
+          "color": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "intensity": 100,
+          "range": 300,
+          "fallInDegrees": 30,
+          "fallOffDegrees": 70
+        },
+        {
+          "id": "13ab435a-2fa6-4c51-8540-72bdd83cbec7",
+          "name": "PointLight0",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": -61.98922,
+            "y": 120.42837,
+            "z": 53.99413
+          },
+          "direction": {
+            "x": 0.7676224,
+            "y": -0.5132689,
+            "z": -0.38381118
+          },
+          "color": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "intensity": 30,
+          "range": 200,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "3f71febd-4c5a-4605-b0d7-606b0961fa40",
+          "name": "PointLight1",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": 0,
+            "y": -50,
+            "z": -200
+          },
+          "direction": {
+            "x": 0.7601932,
+            "y": -0.52690876,
+            "z": -0.3800966
+          },
+          "color": {
+            "x": 1,
+            "y": 1,
+            "z": 0
+          },
+          "intensity": 50,
+          "range": 210,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        }
+      ],
+      "models": [
+        {
+          "modelId": "646a2bc7-52f9-47d1-8559-23828ade7357",
+          "name": "Circular_Cold_Plate_100mm",
+          "visible": true,
+          "position": {
+            "x": 0,
+            "y": 75.10857,
+            "z": -2.9242435
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": 0,
+            "y": 69.12831,
+            "z": -3.37889
+          }
+        },
+        {
+          "modelId": "1d8079b9-337c-44aa-abc5-6b97fe846b7f",
+          "name": "Cold Plate",
+          "visible": true,
+          "position": {
+            "x": -131.17438,
+            "y": 0,
+            "z": 73.86391
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 72.11903,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "b077f338-06a2-4b3b-afbd-23d12680317d",
+          "name": "\u6D6E\u96D5_\u8001\u4EBA",
+          "visible": true,
+          "position": {
+            "x": -1.6645933,
+            "y": 70,
+            "z": -81.71419
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "d2631215-85e2-4409-84fc-cabdec60a56b",
+          "name": "\u6D6E\u96D5_TgBoy",
+          "visible": true,
+          "position": {
+            "x": -70.84473,
+            "y": 80,
+            "z": -132.43488
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "d46787d1-747f-4df3-9fe2-e87cad4ecee7",
+          "name": "\u6D6E\u96D5_TgGirl",
+          "visible": true,
+          "position": {
+            "x": 64.186295,
+            "y": 80,
+            "z": -129.10571
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 0.8000001,
+            "y": 0.8000001,
+            "z": 0.8000001
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "848a114d-e208-4863-ad90-84e428e7f11f",
+          "name": "\u6D6E\u96D5_\u98B1\u98A8\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 95.3466,
+            "y": 40,
+            "z": -5.7757463
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "c30adea7-c2a9-427a-9695-6ce44631cfa2",
+          "name": "\u6D6E\u96D5_J\u5370\u5EA6\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 135.04626,
+            "y": 75,
+            "z": 54.731827
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        }
+      ],
+      "easing": 3
+    },
+    {
+      "id": "d3d93dba-1de9-4caf-bd13-6f257c25a0ad",
+      "name": "\u95DC\u9375\u5F71\u683C 3",
+      "timeSeconds": 15,
+      "from": {
+        "x": 177.72499,
+        "y": 167.77995,
+        "z": 223.9415
+      },
+      "to": {
+        "x": 25.689701,
+        "y": 69.312614,
+        "z": -21.209461
+      },
+      "positionControl": {
+        "x": 140.66226,
+        "y": 93.311874,
+        "z": 142.27654
+      },
+      "targetControl": {
+        "x": 11.487585,
+        "y": 8.845397,
+        "z": 11.947444
+      },
+      "up": {
+        "x": -0.17025869,
+        "y": 0.9463839,
+        "z": -0.2745352
+      },
+      "rollDegrees": 0,
+      "fieldOfViewDegrees": 60,
+      "nearPlane": 0.01,
+      "farPlane": 10000,
+      "lights": [
+        {
+          "id": "efd90af2-e9f3-46c4-8f6e-c313339feea7",
+          "name": "Direct Light",
+          "enabled": true,
+          "type": "Directional",
+          "position": {
+            "x": 135.95073,
+            "y": 142.23079,
+            "z": 119.05268
+          },
+          "direction": {
+            "x": -0.9820651,
+            "y": -0.12959413,
+            "z": -0.13694374
+          },
+          "color": {
+            "x": 0,
+            "y": 0.5019608,
+            "z": 0
+          },
+          "intensity": 10,
+          "range": 0.01,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "87e0b040-814d-4612-bdc8-a8f184bd6b66",
+          "name": "Spot Light",
+          "enabled": true,
+          "type": "Spot",
+          "position": {
+            "x": 45.344032,
+            "y": 185.61984,
+            "z": 139.58865
+          },
+          "direction": {
+            "x": -0.17451565,
+            "y": -0.7390895,
+            "z": -0.65060824
+          },
+          "color": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "intensity": 100,
+          "range": 300,
+          "fallInDegrees": 30,
+          "fallOffDegrees": 70
+        },
+        {
+          "id": "13ab435a-2fa6-4c51-8540-72bdd83cbec7",
+          "name": "PointLight0",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": -61.98922,
+            "y": 163.43602,
+            "z": 58.602093
+          },
+          "direction": {
+            "x": 0.7676224,
+            "y": -0.5132689,
+            "z": -0.38381118
+          },
+          "color": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "intensity": 30,
+          "range": 200,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "3f71febd-4c5a-4605-b0d7-606b0961fa40",
+          "name": "PointLight1",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": 0,
+            "y": -50,
+            "z": -200
+          },
+          "direction": {
+            "x": 0.7601932,
+            "y": -0.52690876,
+            "z": -0.3800966
+          },
+          "color": {
+            "x": 1,
+            "y": 1,
+            "z": 0
+          },
+          "intensity": 50,
+          "range": 210,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        }
+      ],
+      "models": [
+        {
+          "modelId": "646a2bc7-52f9-47d1-8559-23828ade7357",
+          "name": "Circular_Cold_Plate_100mm",
+          "visible": true,
+          "position": {
+            "x": 0,
+            "y": 103.83375,
+            "z": -3.7797117
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": 0,
+            "y": 51.916874,
+            "z": -1.8898559
+          }
+        },
+        {
+          "modelId": "1d8079b9-337c-44aa-abc5-6b97fe846b7f",
+          "name": "Cold Plate",
+          "visible": true,
+          "position": {
+            "x": -148.70638,
+            "y": 0,
+            "z": 104.92736
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 90,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": -115.93452,
+            "y": 0,
+            "z": 45.355507
+          }
+        },
+        {
+          "modelId": "b077f338-06a2-4b3b-afbd-23d12680317d",
+          "name": "\u6D6E\u96D5_\u8001\u4EBA",
+          "visible": true,
+          "position": {
+            "x": -1.6645933,
+            "y": 70,
+            "z": -81.71419
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "d2631215-85e2-4409-84fc-cabdec60a56b",
+          "name": "\u6D6E\u96D5_TgBoy",
+          "visible": true,
+          "position": {
+            "x": -70.84473,
+            "y": 80,
+            "z": -132.43488
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "d46787d1-747f-4df3-9fe2-e87cad4ecee7",
+          "name": "\u6D6E\u96D5_TgGirl",
+          "visible": true,
+          "position": {
+            "x": 64.186295,
+            "y": 80,
+            "z": -129.10571
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "848a114d-e208-4863-ad90-84e428e7f11f",
+          "name": "\u6D6E\u96D5_\u98B1\u98A8\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 96.62118,
+            "y": 40,
+            "z": -19.031277
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": 94.54043,
+            "y": 40,
+            "z": 2.6085098
+          }
+        },
+        {
+          "modelId": "c30adea7-c2a9-427a-9695-6ce44631cfa2",
+          "name": "\u6D6E\u96D5_J\u5370\u5EA6\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 107.515526,
+            "y": 75,
+            "z": 80.73307
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": 152.45975,
+            "y": 75,
+            "z": 38.285786
+          }
+        }
+      ],
+      "easing": 3
+    },
+    {
+      "id": "d67707df-799a-4294-8302-a6a5839dfcb6",
+      "name": "\u95DC\u9375\u5F71\u683C 4",
+      "timeSeconds": 16,
+      "from": {
+        "x": 348.8997,
+        "y": 104.816864,
+        "z": -2.8192174
+      },
+      "to": {
+        "x": 5.0373635,
+        "y": 47.529915,
+        "z": -2.6914327
+      },
+      "positionControl": {
+        "x": 226.36378,
+        "y": 46.417686,
+        "z": 80.59709
+      },
+      "targetControl": {
+        "x": 11.487585,
+        "y": 8.845397,
+        "z": 11.947444
+      },
+      "up": {
+        "x": -0.16433348,
+        "y": 0.98640484,
+        "z": 6.105006E-05
+      },
+      "rollDegrees": 0,
+      "fieldOfViewDegrees": 60,
+      "nearPlane": 0.01,
+      "farPlane": 10000,
+      "lights": [
+        {
+          "id": "efd90af2-e9f3-46c4-8f6e-c313339feea7",
+          "name": "Direct Light",
+          "enabled": true,
+          "type": "Directional",
+          "position": {
+            "x": 135.95073,
+            "y": 142.23079,
+            "z": 119.05268
+          },
+          "direction": {
+            "x": -0.9120993,
+            "y": 0.39641678,
+            "z": -0.104540326
+          },
+          "color": {
+            "x": 0,
+            "y": 0.5019608,
+            "z": 0
+          },
+          "intensity": 10,
+          "range": 0.01,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "87e0b040-814d-4612-bdc8-a8f184bd6b66",
+          "name": "Spot Light",
+          "enabled": true,
+          "type": "Spot",
+          "position": {
+            "x": 45.344032,
+            "y": 185.61984,
+            "z": 139.58865
+          },
+          "direction": {
+            "x": -0.17451565,
+            "y": -0.7390895,
+            "z": -0.65060824
+          },
+          "color": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "intensity": 100,
+          "range": 300,
+          "fallInDegrees": 30,
+          "fallOffDegrees": 70
+        },
+        {
+          "id": "13ab435a-2fa6-4c51-8540-72bdd83cbec7",
+          "name": "PointLight0",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": 37.13729,
+            "y": 60.534657,
+            "z": 60.13807
+          },
+          "direction": {
+            "x": 0.7676224,
+            "y": -0.5132689,
+            "z": -0.38381118
+          },
+          "color": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "intensity": 30,
+          "range": 200,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "3f71febd-4c5a-4605-b0d7-606b0961fa40",
+          "name": "PointLight1",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": 0,
+            "y": -50,
+            "z": -200
+          },
+          "direction": {
+            "x": 0.7601932,
+            "y": -0.52690876,
+            "z": -0.3800966
+          },
+          "color": {
+            "x": 1,
+            "y": 1,
+            "z": 0
+          },
+          "intensity": 50,
+          "range": 210,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        }
+      ],
+      "models": [
+        {
+          "modelId": "646a2bc7-52f9-47d1-8559-23828ade7357",
+          "name": "Circular_Cold_Plate_100mm",
+          "visible": true,
+          "position": {
+            "x": 0,
+            "y": 87.2094,
+            "z": -1.0367273
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": 0,
+            "y": 43.6047,
+            "z": -0.51836365
+          }
+        },
+        {
+          "modelId": "1d8079b9-337c-44aa-abc5-6b97fe846b7f",
+          "name": "Cold Plate",
+          "visible": true,
+          "position": {
+            "x": -147.60643,
+            "y": 0,
+            "z": 103.7846
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 87.68519,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "b077f338-06a2-4b3b-afbd-23d12680317d",
+          "name": "\u6D6E\u96D5_\u8001\u4EBA",
+          "visible": true,
+          "position": {
+            "x": -1.4049153,
+            "y": 70,
+            "z": -90.27733
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "d2631215-85e2-4409-84fc-cabdec60a56b",
+          "name": "\u6D6E\u96D5_TgBoy",
+          "visible": true,
+          "position": {
+            "x": -74.39366,
+            "y": 80,
+            "z": -128.19348
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "d46787d1-747f-4df3-9fe2-e87cad4ecee7",
+          "name": "\u6D6E\u96D5_TgGirl",
+          "visible": true,
+          "position": {
+            "x": 69.98576,
+            "y": 80,
+            "z": -124.08529
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "848a114d-e208-4863-ad90-84e428e7f11f",
+          "name": "\u6D6E\u96D5_\u98B1\u98A8\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 101.208824,
+            "y": 40,
+            "z": -16.521063
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "c30adea7-c2a9-427a-9695-6ce44631cfa2",
+          "name": "\u6D6E\u96D5_J\u5370\u5EA6\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 105.43811,
+            "y": 75,
+            "z": 77.53039
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "c15d3fb2-2521-4271-9720-fb8df92e12b4",
+          "name": "\u6D6E\u96D5_FaceMakeupsnz_100x56.2mm",
+          "visible": true,
+          "position": {
+            "x": -194.50499,
+            "y": 21.290337,
+            "z": -20
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": -179.08788,
+            "y": 11.746382,
+            "z": -20
+          }
+        }
+      ],
+      "easing": 3
+    },
+    {
+      "id": "251984af-b46a-4293-92b0-7277b8853e31",
+      "name": "\u95DC\u9375\u5F71\u683C 5",
+      "timeSeconds": 16.3,
+      "from": {
+        "x": 306.86346,
+        "y": 99.41308,
+        "z": -234.67754
+      },
+      "to": {
+        "x": 3.7192461,
+        "y": 50.37792,
+        "z": 10.649691
+      },
+      "positionControl": {
+        "x": 227.42796,
+        "y": 40.025032,
+        "z": -34.31724
+      },
+      "targetControl": {
+        "x": 11.487585,
+        "y": 8.845397,
+        "z": 11.947444
+      },
+      "up": {
+        "x": -0.09697794,
+        "y": 0.99218744,
+        "z": 0.07848183
+      },
+      "rollDegrees": 0,
+      "fieldOfViewDegrees": 60,
+      "nearPlane": 0.01,
+      "farPlane": 10000,
+      "lights": [
+        {
+          "id": "efd90af2-e9f3-46c4-8f6e-c313339feea7",
+          "name": "Direct Light",
+          "enabled": true,
+          "type": "Directional",
+          "position": {
+            "x": 135.95073,
+            "y": 142.23079,
+            "z": 119.05268
+          },
+          "direction": {
+            "x": -0.6051841,
+            "y": 0.7842037,
+            "z": -0.13702868
+          },
+          "color": {
+            "x": 0,
+            "y": 0.5019608,
+            "z": 0
+          },
+          "intensity": 10,
+          "range": 0.01,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "87e0b040-814d-4612-bdc8-a8f184bd6b66",
+          "name": "Spot Light",
+          "enabled": true,
+          "type": "Spot",
+          "position": {
+            "x": 60.690376,
+            "y": 234.3279,
+            "z": 139.58865
+          },
+          "direction": {
+            "x": -0.17451565,
+            "y": -0.7390895,
+            "z": -0.65060824
+          },
+          "color": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "intensity": 100,
+          "range": 300,
+          "fallInDegrees": 30,
+          "fallOffDegrees": 70
+        },
+        {
+          "id": "13ab435a-2fa6-4c51-8540-72bdd83cbec7",
+          "name": "PointLight0",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": -43.816425,
+            "y": 79.79558,
+            "z": -12.058564
+          },
+          "direction": {
+            "x": 0.7676224,
+            "y": -0.5132689,
+            "z": -0.38381118
+          },
+          "color": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "intensity": 30,
+          "range": 200,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "3f71febd-4c5a-4605-b0d7-606b0961fa40",
+          "name": "PointLight1",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": 0,
+            "y": -50,
+            "z": -200
+          },
+          "direction": {
+            "x": 0.7601932,
+            "y": -0.52690876,
+            "z": -0.3800966
+          },
+          "color": {
+            "x": 1,
+            "y": 1,
+            "z": 0
+          },
+          "intensity": 50,
+          "range": 210,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        }
+      ],
+      "models": [
+        {
+          "modelId": "646a2bc7-52f9-47d1-8559-23828ade7357",
+          "name": "Circular_Cold_Plate_100mm",
+          "visible": true,
+          "position": {
+            "x": 0,
+            "y": 84.57134,
+            "z": -1.0053667
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": 0,
+            "y": 85.890366,
+            "z": -1.021047
+          }
+        },
+        {
+          "modelId": "1d8079b9-337c-44aa-abc5-6b97fe846b7f",
+          "name": "Cold Plate",
+          "visible": true,
+          "position": {
+            "x": -146.27548,
+            "y": 0,
+            "z": 102.40184
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 84.88426,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "b077f338-06a2-4b3b-afbd-23d12680317d",
+          "name": "\u6D6E\u96D5_\u8001\u4EBA",
+          "visible": true,
+          "position": {
+            "x": -1.0895835,
+            "y": 70,
+            "z": -100.21363
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "d2631215-85e2-4409-84fc-cabdec60a56b",
+          "name": "\u6D6E\u96D5_TgBoy",
+          "visible": true,
+          "position": {
+            "x": -78.70319,
+            "y": 80,
+            "z": -123.04307
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "d46787d1-747f-4df3-9fe2-e87cad4ecee7",
+          "name": "\u6D6E\u96D5_TgGirl",
+          "visible": true,
+          "position": {
+            "x": 77.02816,
+            "y": 80,
+            "z": -117.98888
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "848a114d-e208-4863-ad90-84e428e7f11f",
+          "name": "\u6D6E\u96D5_\u98B1\u98A8\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 106.77968,
+            "y": 40,
+            "z": -13.472861
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "c30adea7-c2a9-427a-9695-6ce44631cfa2",
+          "name": "\u6D6E\u96D5_J\u5370\u5EA6\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 102.91546,
+            "y": 75,
+            "z": 73.64131
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        }
+      ],
+      "easing": 3
+    },
+    {
+      "id": "0f74b452-fbc7-4c76-84eb-bcb1a83f10ed",
+      "name": "\u95DC\u9375\u5F71\u683C 6",
+      "timeSeconds": 16.5,
+      "from": {
+        "x": 0.240281,
+        "y": 138.7805,
+        "z": -387.0461
+      },
+      "to": {
+        "x": 7.326901,
+        "y": 32.580425,
+        "z": 18.239662
+      },
+      "positionControl": {
+        "x": 141.53786,
+        "y": 33.412304,
+        "z": -170.89528
+      },
+      "targetControl": {
+        "x": 11.487585,
+        "y": 8.845397,
+        "z": 11.947444
+      },
+      "up": {
+        "x": 0.009720643,
+        "y": 0.9673367,
+        "z": 0.2533087
+      },
+      "rollDegrees": 0,
+      "fieldOfViewDegrees": 60,
+      "nearPlane": 0.01,
+      "farPlane": 10000,
+      "lights": [
+        {
+          "id": "efd90af2-e9f3-46c4-8f6e-c313339feea7",
+          "name": "Direct Light",
+          "enabled": true,
+          "type": "Directional",
+          "position": {
+            "x": 135.95073,
+            "y": 142.23079,
+            "z": 119.05268
+          },
+          "direction": {
+            "x": -0.8463461,
+            "y": -0.5245906,
+            "z": -0.09221186
+          },
+          "color": {
+            "x": 0,
+            "y": 0.5019608,
+            "z": 0
+          },
+          "intensity": 10,
+          "range": 0.01,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "87e0b040-814d-4612-bdc8-a8f184bd6b66",
+          "name": "Spot Light",
+          "enabled": true,
+          "type": "Spot",
+          "position": {
+            "x": 60.690376,
+            "y": 234.3279,
+            "z": 139.58865
+          },
+          "direction": {
+            "x": -0.17451565,
+            "y": -0.7390895,
+            "z": -0.65060824
+          },
+          "color": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "intensity": 100,
+          "range": 300,
+          "fallInDegrees": 30,
+          "fallOffDegrees": 70
+        },
+        {
+          "id": "13ab435a-2fa6-4c51-8540-72bdd83cbec7",
+          "name": "PointLight0",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": -61.98922,
+            "y": 153.45204,
+            "z": -15.125141
+          },
+          "direction": {
+            "x": 0.7676224,
+            "y": -0.5132689,
+            "z": -0.38381118
+          },
+          "color": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "intensity": 30,
+          "range": 200,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "3f71febd-4c5a-4605-b0d7-606b0961fa40",
+          "name": "PointLight1",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": 0,
+            "y": -50,
+            "z": -200
+          },
+          "direction": {
+            "x": 0.7601932,
+            "y": -0.52690876,
+            "z": -0.3800966
+          },
+          "color": {
+            "x": 1,
+            "y": 1,
+            "z": 0
+          },
+          "intensity": 50,
+          "range": 210,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        }
+      ],
+      "models": [
+        {
+          "modelId": "646a2bc7-52f9-47d1-8559-23828ade7357",
+          "name": "Circular_Cold_Plate_100mm",
+          "visible": true,
+          "position": {
+            "x": 0,
+            "y": 81.316605,
+            "z": -0.96667504
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": 0,
+            "y": 82.94397,
+            "z": -0.98602086
+          }
+        },
+        {
+          "modelId": "1d8079b9-337c-44aa-abc5-6b97fe846b7f",
+          "name": "Cold Plate",
+          "visible": true,
+          "position": {
+            "x": -144.6334,
+            "y": 0,
+            "z": 100.69585
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 81.42857,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "b077f338-06a2-4b3b-afbd-23d12680317d",
+          "name": "\u6D6E\u96D5_\u8001\u4EBA",
+          "visible": true,
+          "position": {
+            "x": -0.7017415,
+            "y": 70,
+            "z": -110.933464
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "d2631215-85e2-4409-84fc-cabdec60a56b",
+          "name": "\u6D6E\u96D5_TgBoy",
+          "visible": true,
+          "position": {
+            "x": -84.003685,
+            "y": 80,
+            "z": -116.70833
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "d46787d1-747f-4df3-9fe2-e87cad4ecee7",
+          "name": "\u6D6E\u96D5_TgGirl",
+          "visible": true,
+          "position": {
+            "x": 85.68995,
+            "y": 80,
+            "z": -110.49061
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "848a114d-e208-4863-ad90-84e428e7f11f",
+          "name": "\u6D6E\u96D5_\u98B1\u98A8\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 113.63154,
+            "y": 40,
+            "z": -9.723731
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "c30adea7-c2a9-427a-9695-6ce44631cfa2",
+          "name": "\u6D6E\u96D5_J\u5370\u5EA6\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 99.81274,
+            "y": 75,
+            "z": 68.85793
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        }
+      ],
+      "easing": 3
+    },
+    {
+      "id": "bcc0cbb5-a598-468b-9469-cc1b3c5caf0c",
+      "name": "\u95DC\u9375\u5F71\u683C 7",
+      "timeSeconds": 17.5,
+      "from": {
+        "x": -263.8541,
+        "y": 171.00731,
+        "z": -14.459097
+      },
+      "to": {
+        "x": 30.403778,
+        "y": 57.5016,
+        "z": -12.694518
+      },
+      "positionControl": {
+        "x": -144.83304,
+        "y": 67.08996,
+        "z": -150.89006
+      },
+      "targetControl": {
+        "x": 11.487585,
+        "y": 8.845397,
+        "z": 11.947444
+      },
+      "up": {
+        "x": 0.35987723,
+        "y": 0.93299717,
+        "z": 0.0021580607
+      },
+      "rollDegrees": 0,
+      "fieldOfViewDegrees": 60,
+      "nearPlane": 0.01,
+      "farPlane": 10000,
+      "lights": [
+        {
+          "id": "efd90af2-e9f3-46c4-8f6e-c313339feea7",
+          "name": "Direct Light",
+          "enabled": true,
+          "type": "Directional",
+          "position": {
+            "x": 135.95073,
+            "y": 142.23079,
+            "z": 119.05268
+          },
+          "direction": {
+            "x": -0.4564014,
+            "y": -0.8864036,
+            "z": -0.07737219
+          },
+          "color": {
+            "x": 0,
+            "y": 0.5019608,
+            "z": 0
+          },
+          "intensity": 10,
+          "range": 0.01,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "87e0b040-814d-4612-bdc8-a8f184bd6b66",
+          "name": "Spot Light",
+          "enabled": true,
+          "type": "Spot",
+          "position": {
+            "x": 60.690376,
+            "y": 234.3279,
+            "z": 139.58865
+          },
+          "direction": {
+            "x": -0.17451565,
+            "y": -0.7390895,
+            "z": -0.65060824
+          },
+          "color": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "intensity": 100,
+          "range": 300,
+          "fallInDegrees": 30,
+          "fallOffDegrees": 70
+        },
+        {
+          "id": "13ab435a-2fa6-4c51-8540-72bdd83cbec7",
+          "name": "PointLight0",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": -61.98922,
+            "y": 153.45204,
+            "z": -15.125141
+          },
+          "direction": {
+            "x": 0.7676224,
+            "y": -0.5132689,
+            "z": -0.38381118
+          },
+          "color": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "intensity": 30,
+          "range": 200,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "3f71febd-4c5a-4605-b0d7-606b0961fa40",
+          "name": "PointLight1",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": 0,
+            "y": -50,
+            "z": -200
+          },
+          "direction": {
+            "x": 0.7601932,
+            "y": -0.52690876,
+            "z": -0.3800966
+          },
+          "color": {
+            "x": 1,
+            "y": 1,
+            "z": 0
+          },
+          "intensity": 50,
+          "range": 210,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        }
+      ],
+      "models": [
+        {
+          "modelId": "646a2bc7-52f9-47d1-8559-23828ade7357",
+          "name": "Circular_Cold_Plate_100mm",
+          "visible": true,
+          "position": {
+            "x": 0,
+            "y": 77.20536,
+            "z": -0.9178013
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": 0,
+            "y": 79.26099,
+            "z": -0.9422382
+          }
+        },
+        {
+          "modelId": "1d8079b9-337c-44aa-abc5-6b97fe846b7f",
+          "name": "Cold Plate",
+          "visible": true,
+          "position": {
+            "x": -142.5592,
+            "y": 0,
+            "z": 98.5409
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 77.06349,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "b077f338-06a2-4b3b-afbd-23d12680317d",
+          "name": "\u6D6E\u96D5_\u8001\u4EBA",
+          "visible": true,
+          "position": {
+            "x": -0.175428,
+            "y": 70,
+            "z": -118.98181
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "d2631215-85e2-4409-84fc-cabdec60a56b",
+          "name": "\u6D6E\u96D5_TgBoy",
+          "visible": true,
+          "position": {
+            "x": -91.196625,
+            "y": 80,
+            "z": -108.11189
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "d46787d1-747f-4df3-9fe2-e87cad4ecee7",
+          "name": "\u6D6E\u96D5_TgGirl",
+          "visible": true,
+          "position": {
+            "x": 97.44426,
+            "y": 80,
+            "z": -100.31525
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "848a114d-e208-4863-ad90-84e428e7f11f",
+          "name": "\u6D6E\u96D5_\u98B1\u98A8\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 122.92973,
+            "y": 40,
+            "z": -4.6360445
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "c30adea7-c2a9-427a-9695-6ce44631cfa2",
+          "name": "\u6D6E\u96D5_J\u5370\u5EA6\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 95.60224,
+            "y": 75,
+            "z": 62.366745
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        }
+      ],
+      "easing": 3
+    },
+    {
+      "id": "9c042031-0189-400a-963c-4f2b71d81f36",
+      "name": "\u95DC\u9375\u5F71\u683C 8",
+      "timeSeconds": 18.5,
+      "from": {
+        "x": -210.46039,
+        "y": 88.305984,
+        "z": 103.85158
+      },
+      "to": {
+        "x": -11.131119,
+        "y": 57.96384,
+        "z": -32.15892
+      },
+      "positionControl": {
+        "x": -225.47823,
+        "y": 38.96025,
+        "z": 52.681396
+      },
+      "targetControl": {
+        "x": 11.487585,
+        "y": 8.845397,
+        "z": 11.947444
+      },
+      "up": {
+        "x": 0.103052065,
+        "y": 0.99218744,
+        "z": -0.070316635
+      },
+      "rollDegrees": 0,
+      "fieldOfViewDegrees": 60,
+      "nearPlane": 0.01,
+      "farPlane": 10000,
+      "lights": [
+        {
+          "id": "efd90af2-e9f3-46c4-8f6e-c313339feea7",
+          "name": "Direct Light",
+          "enabled": true,
+          "type": "Directional",
+          "position": {
+            "x": 135.95073,
+            "y": 142.23079,
+            "z": 119.05268
+          },
+          "direction": {
+            "x": -0.83529174,
+            "y": -0.54680586,
+            "z": -0.057367783
+          },
+          "color": {
+            "x": 0,
+            "y": 0.5019608,
+            "z": 0
+          },
+          "intensity": 10,
+          "range": 0.01,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "87e0b040-814d-4612-bdc8-a8f184bd6b66",
+          "name": "Spot Light",
+          "enabled": true,
+          "type": "Spot",
+          "position": {
+            "x": 60.690376,
+            "y": 234.3279,
+            "z": 139.58865
+          },
+          "direction": {
+            "x": -0.17451565,
+            "y": -0.7390895,
+            "z": -0.65060824
+          },
+          "color": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "intensity": 100,
+          "range": 300,
+          "fallInDegrees": 30,
+          "fallOffDegrees": 70
+        },
+        {
+          "id": "13ab435a-2fa6-4c51-8540-72bdd83cbec7",
+          "name": "PointLight0",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": -61.98922,
+            "y": 153.45204,
+            "z": -15.125141
+          },
+          "direction": {
+            "x": 0.7676224,
+            "y": -0.5132689,
+            "z": -0.38381118
+          },
+          "color": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "intensity": 30,
+          "range": 200,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "3f71febd-4c5a-4605-b0d7-606b0961fa40",
+          "name": "PointLight1",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": 0,
+            "y": -50,
+            "z": -200
+          },
+          "direction": {
+            "x": 0.7601932,
+            "y": -0.52690876,
+            "z": -0.3800966
+          },
+          "color": {
+            "x": 1,
+            "y": 1,
+            "z": 0
+          },
+          "intensity": 50,
+          "range": 210,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        }
+      ],
+      "models": [
+        {
+          "modelId": "646a2bc7-52f9-47d1-8559-23828ade7357",
+          "name": "Circular_Cold_Plate_100mm",
+          "visible": true,
+          "position": {
+            "x": 0,
+            "y": 71.86074,
+            "z": -0.8542656
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "1d8079b9-337c-44aa-abc5-6b97fe846b7f",
+          "name": "Cold Plate",
+          "visible": true,
+          "position": {
+            "x": -139.86275,
+            "y": 0,
+            "z": 95.73948
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 71.388885,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "b077f338-06a2-4b3b-afbd-23d12680317d",
+          "name": "\u6D6E\u96D5_\u8001\u4EBA",
+          "visible": true,
+          "position": {
+            "x": 0.83231175,
+            "y": 70,
+            "z": -113.34158
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": -0.4161411,
+            "y": 70,
+            "z": -125.8261
+          }
+        },
+        {
+          "modelId": "d2631215-85e2-4409-84fc-cabdec60a56b",
+          "name": "\u6D6E\u96D5_TgBoy",
+          "visible": true,
+          "position": {
+            "x": -104.96904,
+            "y": 80,
+            "z": -91.652176
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": -87.90688,
+            "y": 80,
+            "z": -112.04353
+          }
+        },
+        {
+          "modelId": "d46787d1-747f-4df3-9fe2-e87cad4ecee7",
+          "name": "\u6D6E\u96D5_TgGirl",
+          "visible": true,
+          "position": {
+            "x": 119.95038,
+            "y": 80,
+            "z": -80.83232
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8
+          },
+          "positionControl": {
+            "x": 92.06835,
+            "y": 80,
+            "z": -104.96902
+          }
+        },
+        {
+          "modelId": "848a114d-e208-4863-ad90-84e428e7f11f",
+          "name": "\u6D6E\u96D5_\u98B1\u98A8\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 140.73312,
+            "y": 40,
+            "z": 5.1054163
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": 118.67714,
+            "y": 40,
+            "z": -6.962932
+          }
+        },
+        {
+          "modelId": "c30adea7-c2a9-427a-9695-6ce44631cfa2",
+          "name": "\u6D6E\u96D5_J\u5370\u5EA6\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 87.54035,
+            "y": 75,
+            "z": 49.937992
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": 97.52794,
+            "y": 75,
+            "z": 65.33553
+          }
+        }
+      ],
+      "easing": 3
+    },
+    {
+      "id": "21011c06-ac7a-4f15-9e8a-9642397a2b59",
+      "name": "\u95DC\u9375\u5F71\u683C 9",
+      "timeSeconds": 19.5,
+      "from": {
+        "x": -16.001863,
+        "y": 75.59222,
+        "z": 278.5478
+      },
+      "to": {
+        "x": -1.8729637,
+        "y": 38.66265,
+        "z": 7.193843
+      },
+      "positionControl": {
+        "x": -94.76896,
+        "y": 36.825836,
+        "z": 224.69383
+      },
+      "targetControl": {
+        "x": 11.487585,
+        "y": 8.845397,
+        "z": 11.947444
+      },
+      "up": {
+        "x": 0.0070026116,
+        "y": 0.9908903,
+        "z": -0.13448934
+      },
+      "rollDegrees": 0,
+      "fieldOfViewDegrees": 60,
+      "nearPlane": 0.01,
+      "farPlane": 10000,
+      "lights": [
+        {
+          "id": "efd90af2-e9f3-46c4-8f6e-c313339feea7",
+          "name": "Direct Light",
+          "enabled": true,
+          "type": "Directional",
+          "position": {
+            "x": 135.95073,
+            "y": 142.23079,
+            "z": 119.05268
+          },
+          "direction": {
+            "x": -0.6182302,
+            "y": -0.78439754,
+            "z": -0.050119195
+          },
+          "color": {
+            "x": 0,
+            "y": 0.5019608,
+            "z": 0
+          },
+          "intensity": 10,
+          "range": 0.01,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "87e0b040-814d-4612-bdc8-a8f184bd6b66",
+          "name": "Spot Light",
+          "enabled": true,
+          "type": "Spot",
+          "position": {
+            "x": 60.690376,
+            "y": 234.3279,
+            "z": 139.58865
+          },
+          "direction": {
+            "x": -0.17451565,
+            "y": -0.7390895,
+            "z": -0.65060824
+          },
+          "color": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "intensity": 100,
+          "range": 300,
+          "fallInDegrees": 30,
+          "fallOffDegrees": 70
+        },
+        {
+          "id": "13ab435a-2fa6-4c51-8540-72bdd83cbec7",
+          "name": "PointLight0",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": -61.98922,
+            "y": 153.45204,
+            "z": -15.125141
+          },
+          "direction": {
+            "x": 0.7676224,
+            "y": -0.5132689,
+            "z": -0.38381118
+          },
+          "color": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "intensity": 20,
+          "range": 200,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "3f71febd-4c5a-4605-b0d7-606b0961fa40",
+          "name": "PointLight1",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": 0,
+            "y": -50,
+            "z": -200
+          },
+          "direction": {
+            "x": 0.7601932,
+            "y": -0.52690876,
+            "z": -0.3800966
+          },
+          "color": {
+            "x": 1,
+            "y": 1,
+            "z": 0
+          },
+          "intensity": 50,
+          "range": 210,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        }
+      ],
+      "models": [
+        {
+          "modelId": "646a2bc7-52f9-47d1-8559-23828ade7357",
+          "name": "Circular_Cold_Plate_100mm",
+          "visible": true,
+          "position": {
+            "x": 0,
+            "y": 64.66605,
+            "z": -0.7687366
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "1d8079b9-337c-44aa-abc5-6b97fe846b7f",
+          "name": "Cold Plate",
+          "visible": true,
+          "position": {
+            "x": -136.2329,
+            "y": 0,
+            "z": 91.96833
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 63.749996,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "b077f338-06a2-4b3b-afbd-23d12680317d",
+          "name": "\u6D6E\u96D5_\u8001\u4EBA",
+          "visible": true,
+          "position": {
+            "x": 0.83231175,
+            "y": 70,
+            "z": -113.34158
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "d2631215-85e2-4409-84fc-cabdec60a56b",
+          "name": "\u6D6E\u96D5_TgBoy",
+          "visible": true,
+          "position": {
+            "x": -84.57769,
+            "y": 80,
+            "z": -87.07452
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "d46787d1-747f-4df3-9fe2-e87cad4ecee7",
+          "name": "\u6D6E\u96D5_TgGirl",
+          "visible": true,
+          "position": {
+            "x": 101.63977,
+            "y": 80,
+            "z": -76.67082
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "848a114d-e208-4863-ad90-84e428e7f11f",
+          "name": "\u6D6E\u96D5_\u98B1\u98A8\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 160.29218,
+            "y": 40,
+            "z": 35.484356
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "c30adea7-c2a9-427a-9695-6ce44631cfa2",
+          "name": "\u6D6E\u96D5_J\u5370\u5EA6\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 101.2733,
+            "y": 75,
+            "z": 22.888258
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        }
+      ],
+      "easing": 3
+    },
+    {
+      "id": "b638a574-5d72-4760-92a9-a62985b5563c",
+      "name": "\u95DC\u9375\u5F71\u683C 10",
+      "timeSeconds": 20.5,
+      "from": {
+        "x": 216.918,
+        "y": 121.939545,
+        "z": 194.58908
+      },
+      "to": {
+        "x": 22.935434,
+        "y": 76.80669,
+        "z": -13.468458
+      },
+      "positionControl": {
+        "x": 90.9218,
+        "y": 35.755035,
+        "z": 229.14192
+      },
+      "targetControl": {
+        "x": 11.487585,
+        "y": 8.845397,
+        "z": 11.947444
+      },
+      "up": {
+        "x": -0.1083373,
+        "y": 0.98764396,
+        "z": -0.113236174
+      },
+      "rollDegrees": 0,
+      "fieldOfViewDegrees": 60,
+      "nearPlane": 0.01,
+      "farPlane": 10000,
+      "lights": [
+        {
+          "id": "efd90af2-e9f3-46c4-8f6e-c313339feea7",
+          "name": "Direct Light",
+          "enabled": true,
+          "type": "Directional",
+          "position": {
+            "x": 135.95073,
+            "y": 142.23079,
+            "z": 119.05268
+          },
+          "direction": {
+            "x": -0.9911955,
+            "y": 0.038298126,
+            "z": -0.1267469
+          },
+          "color": {
+            "x": 0,
+            "y": 0.5019608,
+            "z": 0
+          },
+          "intensity": 10,
+          "range": 0.01,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "87e0b040-814d-4612-bdc8-a8f184bd6b66",
+          "name": "Spot Light",
+          "enabled": true,
+          "type": "Spot",
+          "position": {
+            "x": 60.690376,
+            "y": 234.3279,
+            "z": 139.58865
+          },
+          "direction": {
+            "x": -0.17451565,
+            "y": -0.7390895,
+            "z": -0.65060824
+          },
+          "color": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "intensity": 100,
+          "range": 300,
+          "fallInDegrees": 30,
+          "fallOffDegrees": 70
+        },
+        {
+          "id": "13ab435a-2fa6-4c51-8540-72bdd83cbec7",
+          "name": "PointLight0",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": 219.04356,
+            "y": 174.8035,
+            "z": 13.609353
+          },
+          "direction": {
+            "x": 0.7676224,
+            "y": -0.5132689,
+            "z": -0.38381118
+          },
+          "color": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "intensity": 10,
+          "range": 200,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "3f71febd-4c5a-4605-b0d7-606b0961fa40",
+          "name": "PointLight1",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": 0,
+            "y": -50,
+            "z": -200
+          },
+          "direction": {
+            "x": 0.7601932,
+            "y": -0.52690876,
+            "z": -0.3800966
+          },
+          "color": {
+            "x": 1,
+            "y": 1,
+            "z": 0
+          },
+          "intensity": 50,
+          "range": 210,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        }
+      ],
+      "models": [
+        {
+          "modelId": "646a2bc7-52f9-47d1-8559-23828ade7357",
+          "name": "Circular_Cold_Plate_100mm",
+          "visible": true,
+          "position": {
+            "x": 0,
+            "y": 54.59349,
+            "z": -0.64899606
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": 0,
+            "y": 59.629772,
+            "z": -0.70886636
+          }
+        },
+        {
+          "modelId": "1d8079b9-337c-44aa-abc5-6b97fe846b7f",
+          "name": "Cold Plate",
+          "visible": true,
+          "position": {
+            "x": -131.15108,
+            "y": 0,
+            "z": 86.68872
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 53.05555,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "b077f338-06a2-4b3b-afbd-23d12680317d",
+          "name": "\u6D6E\u96D5_\u8001\u4EBA",
+          "visible": true,
+          "position": {
+            "x": 0.8323117,
+            "y": 70,
+            "z": -113.341576
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "d2631215-85e2-4409-84fc-cabdec60a56b",
+          "name": "\u6D6E\u96D5_TgBoy",
+          "visible": true,
+          "position": {
+            "x": -64.18635,
+            "y": 80,
+            "z": -82.49685
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": -84.57769,
+            "y": 80,
+            "z": -87.074524
+          }
+        },
+        {
+          "modelId": "d46787d1-747f-4df3-9fe2-e87cad4ecee7",
+          "name": "\u6D6E\u96D5_TgGirl",
+          "visible": true,
+          "position": {
+            "x": 83.32916,
+            "y": 80,
+            "z": -72.50933
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8
+          },
+          "positionControl": {
+            "x": 101.63976,
+            "y": 80,
+            "z": -76.67082
+          }
+        },
+        {
+          "modelId": "848a114d-e208-4863-ad90-84e428e7f11f",
+          "name": "\u6D6E\u96D5_\u98B1\u98A8\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 179.85123,
+            "y": 40,
+            "z": 65.8633
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": 160.29218,
+            "y": 40,
+            "z": 35.484356
+          }
+        },
+        {
+          "modelId": "c30adea7-c2a9-427a-9695-6ce44631cfa2",
+          "name": "\u6D6E\u96D5_J\u5370\u5EA6\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 115.00625,
+            "y": 75,
+            "z": -4.161473
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": 101.2733,
+            "y": 75,
+            "z": 22.888256
+          }
+        }
+      ],
+      "easing": 3
+    },
+    {
+      "id": "19220405-7d45-47a0-942f-fc27a211312f",
+      "name": "\u95DC\u9375\u5F71\u683C 11",
+      "timeSeconds": 22.5,
+      "from": {
+        "x": 203.69994,
+        "y": 124.76581,
+        "z": 96.15447
+      },
+      "to": {
+        "x": 13.895273,
+        "y": 75.53916,
+        "z": -20.197279
+      },
+      "positionControl": {
+        "x": 119.67159,
+        "y": 34.73817,
+        "z": 109.56596
+      },
+      "targetControl": {
+        "x": 11.487582,
+        "y": 8.845398,
+        "z": 11.947454
+      },
+      "up": {
+        "x": -0.16889149,
+        "y": 0.97600776,
+        "z": -0.13742113
+      },
+      "rollDegrees": 0,
+      "fieldOfViewDegrees": 60,
+      "nearPlane": 0.01,
+      "farPlane": 10000,
+      "lights": [
+        {
+          "id": "efd90af2-e9f3-46c4-8f6e-c313339feea7",
+          "name": "Direct Light",
+          "enabled": true,
+          "type": "Directional",
+          "position": {
+            "x": 135.95073,
+            "y": 142.23079,
+            "z": 119.05268
+          },
+          "direction": {
+            "x": -0.28014892,
+            "y": -0.95314616,
+            "z": -0.11414524
+          },
+          "color": {
+            "x": 0,
+            "y": 0.5019608,
+            "z": 0
+          },
+          "intensity": 10,
+          "range": 0.01,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "87e0b040-814d-4612-bdc8-a8f184bd6b66",
+          "name": "Spot Light",
+          "enabled": false,
+          "type": "Spot",
+          "position": {
+            "x": 60.690376,
+            "y": 234.3279,
+            "z": 139.58865
+          },
+          "direction": {
+            "x": -0.17451565,
+            "y": -0.7390895,
+            "z": -0.65060824
+          },
+          "color": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "intensity": 100,
+          "range": 300,
+          "fallInDegrees": 30,
+          "fallOffDegrees": 70
+        },
+        {
+          "id": "13ab435a-2fa6-4c51-8540-72bdd83cbec7",
+          "name": "PointLight0",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": 86.27046,
+            "y": 174.8035,
+            "z": -119.16383
+          },
+          "direction": {
+            "x": 0.7676224,
+            "y": -0.5132689,
+            "z": -0.38381118
+          },
+          "color": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "intensity": 10,
+          "range": 200,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "3f71febd-4c5a-4605-b0d7-606b0961fa40",
+          "name": "PointLight1",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": 0,
+            "y": -50,
+            "z": -200
+          },
+          "direction": {
+            "x": 0.7601932,
+            "y": -0.52690876,
+            "z": -0.3800966
+          },
+          "color": {
+            "x": 1,
+            "y": 1,
+            "z": 0
+          },
+          "intensity": 50,
+          "range": 210,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        }
+      ],
+      "models": [
+        {
+          "modelId": "646a2bc7-52f9-47d1-8559-23828ade7357",
+          "name": "Circular_Cold_Plate_100mm",
+          "visible": true,
+          "position": {
+            "x": 0,
+            "y": 25.814734,
+            "z": -0.3068802
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": 0,
+            "y": 40.204113,
+            "z": -0.47793812
+          }
+        },
+        {
+          "modelId": "1d8079b9-337c-44aa-abc5-6b97fe846b7f",
+          "name": "Cold Plate",
+          "visible": true,
+          "position": {
+            "x": -116.63162,
+            "y": 0,
+            "z": 71.60416
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 22.5,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "b077f338-06a2-4b3b-afbd-23d12680317d",
+          "name": "\u6D6E\u96D5_\u8001\u4EBA",
+          "visible": true,
+          "position": {
+            "x": 0.83231175,
+            "y": 70,
+            "z": -113.34158
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "d2631215-85e2-4409-84fc-cabdec60a56b",
+          "name": "\u6D6E\u96D5_TgBoy",
+          "visible": true,
+          "position": {
+            "x": -64.18634,
+            "y": 79.99999,
+            "z": -82.49684
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "d46787d1-747f-4df3-9fe2-e87cad4ecee7",
+          "name": "\u6D6E\u96D5_TgGirl",
+          "visible": true,
+          "position": {
+            "x": 83.329155,
+            "y": 79.99999,
+            "z": -72.50933
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 0.79999995,
+            "y": 0.79999995,
+            "z": 0.79999995
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "848a114d-e208-4863-ad90-84e428e7f11f",
+          "name": "\u6D6E\u96D5_\u98B1\u98A8\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 173.10529,
+            "y": 39.999996,
+            "z": 65.79076
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "c30adea7-c2a9-427a-9695-6ce44631cfa2",
+          "name": "\u6D6E\u96D5_J\u5370\u5EA6\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 115.00624,
+            "y": 74.99999,
+            "z": -4.1614723
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        }
+      ],
+      "easing": 3
+    },
+    {
+      "id": "972cb7ee-dae3-403c-93d0-4dd27be4cd87",
+      "name": "\u95DC\u9375\u5F71\u683C 12",
+      "timeSeconds": 31.499999999999996,
+      "from": {
+        "x": -49.604843,
+        "y": 0.81697845,
+        "z": 951.04205
+      },
+      "to": {
+        "x": 0.56000584,
+        "y": 63.530716,
+        "z": -12.354045
+      },
+      "positionControl": {
+        "x": 177.21036,
+        "y": 92.80051,
+        "z": 199.16138
+      },
+      "targetControl": {
+        "x": 11.487582,
+        "y": 8.845398,
+        "z": 11.947454
+      },
+      "up": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      },
+      "rollDegrees": 0,
+      "fieldOfViewDegrees": 17,
+      "nearPlane": 0.01,
+      "farPlane": 10000,
+      "lights": [
+        {
+          "id": "efd90af2-e9f3-46c4-8f6e-c313339feea7",
+          "name": "Direct Light",
+          "enabled": true,
+          "type": "Directional",
+          "position": {
+            "x": 135.95073,
+            "y": 142.23079,
+            "z": 119.05268
+          },
+          "direction": {
+            "x": -0.7054656,
+            "y": -0.67606723,
+            "z": -0.21272376
+          },
+          "color": {
+            "x": 0,
+            "y": 0.5019608,
+            "z": 0
+          },
+          "intensity": 10,
+          "range": 0.01,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "87e0b040-814d-4612-bdc8-a8f184bd6b66",
+          "name": "Spot Light",
+          "enabled": false,
+          "type": "Spot",
+          "position": {
+            "x": 60.690376,
+            "y": 234.3279,
+            "z": 139.58865
+          },
+          "direction": {
+            "x": -0.17451565,
+            "y": -0.7390895,
+            "z": -0.65060824
+          },
+          "color": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+          },
+          "intensity": 100,
+          "range": 300,
+          "fallInDegrees": 30,
+          "fallOffDegrees": 70
+        },
+        {
+          "id": "13ab435a-2fa6-4c51-8540-72bdd83cbec7",
+          "name": "PointLight0",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": -87.12732,
+            "y": 174.8035,
+            "z": -119.16384
+          },
+          "direction": {
+            "x": 0.7676224,
+            "y": -0.5132689,
+            "z": -0.38381118
+          },
+          "color": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+          },
+          "intensity": 100,
+          "range": 200,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        },
+        {
+          "id": "3f71febd-4c5a-4605-b0d7-606b0961fa40",
+          "name": "PointLight1",
+          "enabled": true,
+          "type": "Point",
+          "position": {
+            "x": 0,
+            "y": -50,
+            "z": -200
+          },
+          "direction": {
+            "x": 0.7601932,
+            "y": -0.52690876,
+            "z": -0.3800966
+          },
+          "color": {
+            "x": 1,
+            "y": 1,
+            "z": 0
+          },
+          "intensity": 50,
+          "range": 210,
+          "fallInDegrees": 20,
+          "fallOffDegrees": 35
+        }
+      ],
+      "models": [
+        {
+          "modelId": "646a2bc7-52f9-47d1-8559-23828ade7357",
+          "name": "Circular_Cold_Plate_100mm",
+          "visible": true,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": -90,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "modelId": "1d8079b9-337c-44aa-abc5-6b97fe846b7f",
+          "name": "Cold Plate",
+          "visible": true,
+          "position": {
+            "x": -92.69262,
+            "y": 0,
+            "z": 73.21673
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": -45,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": -112.56374,
+            "y": 0,
+            "z": 54.136265
+          }
+        },
+        {
+          "modelId": "b077f338-06a2-4b3b-afbd-23d12680317d",
+          "name": "\u6D6E\u96D5_\u8001\u4EBA",
+          "visible": true,
+          "position": {
+            "x": 0.83231175,
+            "y": 70,
+            "z": -113.34158
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "d2631215-85e2-4409-84fc-cabdec60a56b",
+          "name": "\u6D6E\u96D5_TgBoy",
+          "visible": true,
+          "position": {
+            "x": -64.18635,
+            "y": 80,
+            "z": -82.49685
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "d46787d1-747f-4df3-9fe2-e87cad4ecee7",
+          "name": "\u6D6E\u96D5_TgGirl",
+          "visible": true,
+          "position": {
+            "x": 83.32916,
+            "y": 80,
+            "z": -72.50933
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 0.8,
+            "y": 0.8,
+            "z": 0.8
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "848a114d-e208-4863-ad90-84e428e7f11f",
+          "name": "\u6D6E\u96D5_\u98B1\u98A8\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 102.44736,
+            "y": 40,
+            "z": 65.03098
+          },
+          "rotationDegrees": {
+            "x": -90,
+            "y": 180,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": 141.14929,
+            "y": 40,
+            "z": 65.44714
+          }
+        },
+        {
+          "modelId": "c30adea7-c2a9-427a-9695-6ce44631cfa2",
+          "name": "\u6D6E\u96D5_J\u5370\u5EA6\u5973\u5B69",
+          "visible": true,
+          "position": {
+            "x": 115.00625,
+            "y": 75,
+            "z": -4.161473
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": null
+        },
+        {
+          "modelId": "c15d3fb2-2521-4271-9720-fb8df92e12b4",
+          "name": "\u6D6E\u96D5_FaceMakeupsnz_100x56.2mm",
+          "visible": true,
+          "position": {
+            "x": -149.72192,
+            "y": 1.4683034,
+            "z": -20
+          },
+          "rotationDegrees": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "positionControl": {
+            "x": -169.5439,
+            "y": 22.758625,
+            "z": -20
+          }
+        }
+      ],
+      "easing": 3
+    }
+  ]
+}

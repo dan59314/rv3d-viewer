@@ -1,0 +1,11 @@
+{
+  "id": "rv3dviewer.camera-animation",
+  "name": "動畫製作",
+  "description": "以關鍵影格製作、預覽與儲存燈光運鏡動畫",
+  "version": "1.0.0",
+  "assembly": "Rv3dViewer.CameraAnimationPlugin.dll",
+  "entryType": "Rv3dViewer.CameraAnimationPlugin.CameraAnimationPlugin",
+  "hostApiVersion": "1.0",
+  "enabled": true,
+  "menuOrder": 35
+}

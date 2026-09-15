@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>Rv3dViewer.MapPlugin</AssemblyName>
+    <Platforms>x64</Platforms>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Rv3dViewer.Plugin.WinForms\Rv3dViewer.Plugin.WinForms.csproj" />
+    <Compile Remove="PbrTextureSetDiscovery.cs" />
+    <Compile Remove="TextureAssetStore.cs" />
+    <Compile Include="PbrTextureSetDiscovery.cs" />
+    <Compile Include="TextureAssetStore.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Rv3dViewer.Core\Rv3dViewer.Core.csproj" />
+    <ProjectReference Include="..\..\src\Rv3dViewer.Plugin.Abstractions\Rv3dViewer.Plugin.Abstractions.csproj" />
+    <ProjectReference Include="..\..\src\Rv3dViewer.Rendering.OpenGL\Rv3dViewer.Rendering.OpenGL.csproj" />
+    <PackageReference Include="OpenTK" Version="4.9.4" />
+    <PackageReference Include="OpenTK.GLControl" Version="4.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="plugin.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <Target Name="DeployToViewerPluginFolder" AfterTargets="Build" Condition="'$(SkipPluginDeploy)' != 'true'">
+    <PropertyGroup>
+      <ViewerPluginDirectory>$(MSBuildThisFileDirectory)..\..\src\Rv3dViewer.App\bin\x64\$(Configuration)\net8.0-windows\win-x64\PlugIn\MapPlugin</ViewerPluginDirectory>
+    </PropertyGroup>
+    <ItemGroup>
+      <PluginDeploymentFiles Include="$(TargetDir)*.*" />
+      <TutorialDeploymentFiles Include="$(MSBuildProjectDirectory)\Tutorials\**\*"
+                               Condition="'$(Configuration)' == 'Release' and '$(SkipPluginDeploy)' != 'true'" />
+    </ItemGroup>
+    <MakeDir Directories="$(ViewerPluginDirectory)" />
+    <Copy SourceFiles="@(PluginDeploymentFiles)" DestinationFolder="$(ViewerPluginDirectory)" SkipUnchangedFiles="true" />
+    <MakeDir Directories="$(ViewerPluginDirectory)\Tutorials" Condition="'@(TutorialDeploymentFiles)' != ''" />
+    <Copy SourceFiles="@(TutorialDeploymentFiles)"
+          DestinationFiles="@(TutorialDeploymentFiles->'$(ViewerPluginDirectory)\Tutorials\%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="false" Condition="'@(TutorialDeploymentFiles)' != ''" />
+  </Target>
+</Project>

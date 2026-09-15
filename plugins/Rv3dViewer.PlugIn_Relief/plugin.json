@@ -1,0 +1,11 @@
+{
+  "id": "rv3dviewer.relief",
+  "name": "浮雕模型製作",
+  "description": "將圖檔轉換為可加入場景的 2.5D 浮雕模型",
+  "version": "1.0.0",
+  "assembly": "Rv3dViewer.ReliefPlugin.dll",
+  "entryType": "Rv3dViewer.ReliefPlugin.ReliefPlugin",
+  "hostApiVersion": "1.0",
+  "enabled": true,
+  "menuOrder": 40
+}

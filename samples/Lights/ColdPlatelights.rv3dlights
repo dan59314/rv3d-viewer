@@ -1,0 +1,78 @@
+{
+  "formatVersion": 1,
+  "lights": [
+    {
+      "name": "Key Light",
+      "enabled": true,
+      "type": "Directional",
+      "position": {
+        "x": 0,
+        "y": 5,
+        "z": 0
+      },
+      "direction": {
+        "x": -0.49490154,
+        "y": -0.761387,
+        "z": -0.41876286
+      },
+      "color": {
+        "x": 1,
+        "y": 0.96,
+        "z": 0.9
+      },
+      "intensity": 10,
+      "range": 120,
+      "fallInDegrees": 20,
+      "fallOffDegrees": 35
+    },
+    {
+      "name": "Fill Light",
+      "enabled": true,
+      "type": "Point",
+      "position": {
+        "x": 50,
+        "y": -30,
+        "z": 0
+      },
+      "direction": {
+        "x": -1,
+        "y": 2.4954923E-05,
+        "z": 2.0143261E-08
+      },
+      "color": {
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "intensity": 20,
+      "range": 150,
+      "fallInDegrees": 20,
+      "fallOffDegrees": 35
+    },
+    {
+      "name": "Light 3",
+      "enabled": true,
+      "type": "Spot",
+      "position": {
+        "x": -60,
+        "y": 120,
+        "z": 0
+      },
+      "direction": {
+        "x": 0.4267896,
+        "y": -0.8535792,
+        "z": 0.29875273
+      },
+      "color": {
+        "x": 1,
+        "y": 1,
+        "z": 0
+      },
+      "intensity": 20,
+      "range": 150,
+      "fallInDegrees": 20,
+      "fallOffDegrees": 35
+    }
+  ],
+  "showLightGizmos": false
+}

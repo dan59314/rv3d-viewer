@@ -1,0 +1,11 @@
+{
+  "id": "rv3dviewer.rv-interior-design",
+  "name": "RV室內設計",
+  "description": "參數化建立室內裝潢設計模型，提供四視圖、模型、貼圖與材質工作區",
+  "version": "0.1.0",
+  "assembly": "Rv3dViewer.RVInteriorDesignPlugin.dll",
+  "entryType": "Rv3dViewer.RVInteriorDesignPlugin.RVInteriorDesignPlugin",
+  "hostApiVersion": "1.0",
+  "enabled": true,
+  "menuOrder": 31
+}

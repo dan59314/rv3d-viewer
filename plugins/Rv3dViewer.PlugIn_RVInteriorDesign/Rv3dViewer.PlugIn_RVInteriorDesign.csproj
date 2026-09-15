@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>Rv3dViewer.RVInteriorDesignPlugin</AssemblyName>
+    <RootNamespace>Rv3dViewer.RVInteriorDesignPlugin</RootNamespace>
+    <Platforms>x64</Platforms>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AssimpNetter" Version="6.0.5" />
+    <Content Include="$(NuGetPackageRoot)assimpnetter\6.0.5\lib\net6.0\AssimpNetter.dll"
+             Link="AssimpNetter.dll" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="$(NuGetPackageRoot)assimpnetter\6.0.5\runtimes\win-x64\native\assimp.dll"
+             Link="runtimes\win-x64\native\assimp.dll" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Rv3dViewer.Plugin.WinForms\Rv3dViewer.Plugin.WinForms.csproj" />
+    <ProjectReference Include="..\..\src\Rv3dViewer.Core\Rv3dViewer.Core.csproj" />
+    <ProjectReference Include="..\..\src\Rv3dViewer.Plugin.Abstractions\Rv3dViewer.Plugin.Abstractions.csproj" />
+    <ProjectReference Include="..\..\src\Rv3dViewer.Rendering.OpenGL\Rv3dViewer.Rendering.OpenGL.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="plugin.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\..\models\RvInterior\**\*.*"
+             Link="Models\RvInterior\%(RecursiveDir)%(Filename)%(Extension)"
+             CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="RVInteriorDesignForm.AssetLibrary.resx"
+                      LogicalName="$(RootNamespace).RVInteriorDesignForm.AssetLibrary.resources"
+                      ManifestResourceName="$(RootNamespace).RVInteriorDesignForm.AssetLibrary" />
+    <EmbeddedResource Update="RVInteriorDesignForm.GlbExport.resx"
+                      LogicalName="$(RootNamespace).RVInteriorDesignForm.GlbExport.resources"
+                      ManifestResourceName="$(RootNamespace).RVInteriorDesignForm.GlbExport" />
+    <EmbeddedResource Update="RVInteriorDesignForm.Project.resx"
+                      LogicalName="$(RootNamespace).RVInteriorDesignForm.Project.resources"
+                      ManifestResourceName="$(RootNamespace).RVInteriorDesignForm.Project" />
+    <EmbeddedResource Update="InteriorAssetPbrPreviewForm.resx"
+                      LogicalName="$(RootNamespace).InteriorAssetPbrPreviewForm.resources"
+                      ManifestResourceName="$(RootNamespace).InteriorAssetPbrPreviewForm" />
+  </ItemGroup>
+  <Target Name="DeployToViewerPluginFolder" AfterTargets="Build" Condition="'$(SkipViewerPluginDeploy)' != 'true'">
+    <PropertyGroup>
+      <ViewerPluginDirectory>$(MSBuildThisFileDirectory)..\..\src\Rv3dViewer.App\bin\x64\$(Configuration)\net8.0-windows\win-x64\PlugIn\RVInteriorDesignPlugin</ViewerPluginDirectory>
+    </PropertyGroup>
+    <ItemGroup>
+      <PluginDeploymentFiles Include="$(TargetDir)**\*.*" />
+    </ItemGroup>
+    <MakeDir Directories="$(ViewerPluginDirectory)" />
+    <Copy SourceFiles="@(PluginDeploymentFiles)"
+          DestinationFolder="$(ViewerPluginDirectory)\%(RecursiveDir)" SkipUnchangedFiles="true" />
+  </Target>
+</Project>

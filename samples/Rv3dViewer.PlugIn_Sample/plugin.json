@@ -1,0 +1,11 @@
+{
+  "id": "rv3dviewer.sample",
+  "name": "範例外掛",
+  "description": "示範讀取選取資訊、修改材質與新增燈光",
+  "version": "1.0.0",
+  "assembly": "Rv3dViewer.SamplePlugin.dll",
+  "entryType": "Rv3dViewer.SamplePlugin.SamplePlugin",
+  "hostApiVersion": "1.0",
+  "enabled": true,
+  "menuOrder": 100
+}

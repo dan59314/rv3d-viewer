@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>Rv3dViewer.CameraAnimationPlugin</AssemblyName>
+    <Platforms>x64</Platforms>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Rv3dViewer.Plugin.WinForms\Rv3dViewer.Plugin.WinForms.csproj" />
+    <ProjectReference Include="..\..\src\Rv3dViewer.Core\Rv3dViewer.Core.csproj" />
+    <ProjectReference Include="..\..\src\Rv3dViewer.Plugin.Abstractions\Rv3dViewer.Plugin.Abstractions.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="plugin.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <Target Name="DeployToViewerPluginFolder" AfterTargets="Build" Condition="'$(SkipPluginDeploy)' != 'true'">
+    <PropertyGroup>
+      <ViewerPluginDirectory>$(MSBuildThisFileDirectory)..\..\src\Rv3dViewer.App\bin\x64\$(Configuration)\net8.0-windows\win-x64\PlugIn\CameraAnimationPlugin</ViewerPluginDirectory>
+    </PropertyGroup>
+    <ItemGroup>
+      <PluginDeploymentFiles Include="$(TargetDir)*.*" />
+      <TutorialDeploymentFiles Include="$(MSBuildProjectDirectory)\Tutorials\**\*"
+                               Condition="'$(Configuration)' == 'Release' and '$(SkipPluginDeploy)' != 'true'" />
+    </ItemGroup>
+    <MakeDir Directories="$(ViewerPluginDirectory)" />
+    <Copy SourceFiles="@(PluginDeploymentFiles)" DestinationFolder="$(ViewerPluginDirectory)" SkipUnchangedFiles="true" />
+    <MakeDir Directories="$(ViewerPluginDirectory)\Tutorials" Condition="'@(TutorialDeploymentFiles)' != ''" />
+    <Copy SourceFiles="@(TutorialDeploymentFiles)"
+          DestinationFiles="@(TutorialDeploymentFiles->'$(ViewerPluginDirectory)\Tutorials\%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="false" Condition="'@(TutorialDeploymentFiles)' != ''" />
+  </Target>
+</Project>

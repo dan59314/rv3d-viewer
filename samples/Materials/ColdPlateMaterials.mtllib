@@ -1,0 +1,260 @@
+{
+  "formatVersion": 1,
+  "materials": [
+    {
+      "name": "Glass_Tex",
+      "baseColor": {
+        "x": 0.7529412,
+        "y": 1,
+        "z": 1,
+        "w": 1
+      },
+      "metallic": 0.5,
+      "roughness": 0.2,
+      "normalScale": 1,
+      "ambientOcclusion": 1,
+      "emissive": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "emissiveStrength": 1,
+      "opacity": 0.3,
+      "doubleSided": false,
+      "renderMode": "Transparent",
+      "alphaCutoff": 0.95,
+      "transmission": 0.55,
+      "indexOfRefraction": 1.5,
+      "thickness": 0.2,
+      "refractionStrength": 0.25,
+      "absorptionColor": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "textures": {
+        "BaseColor": {
+          "path": "D:\\SourceCode\\AI_Projects\\Codex Data\\3D Viewer\\src\\Rv3dViewer.App\\bin\\x64\\Debug\\net8.0-windows\\win-x64\\lastScene\\Assets\\Textures\\FishWor1_c6e93e2b.bmp",
+          "enabled": true,
+          "uvChannel": 0,
+          "wrap": "Repeat",
+          "filter": "LinearMipmapLinear"
+        }
+      }
+    },
+    {
+      "name": "Gold",
+      "baseColor": {
+        "x": 0.83137256,
+        "y": 0.6862745,
+        "z": 0.21568628,
+        "w": 1
+      },
+      "metallic": 0.5,
+      "roughness": 0.15,
+      "normalScale": 1,
+      "ambientOcclusion": 1,
+      "emissive": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "emissiveStrength": 1,
+      "opacity": 1,
+      "doubleSided": false,
+      "renderMode": "Opaque",
+      "alphaCutoff": 0.5,
+      "transmission": 0.95,
+      "indexOfRefraction": 1.5,
+      "thickness": 0.05,
+      "refractionStrength": 0.04,
+      "absorptionColor": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "textures": {
+        "BaseColor": {
+          "path": "D:\\SourceCode\\AI_Projects\\Codex Data\\3D Viewer\\src\\Rv3dViewer.App\\bin\\x64\\Debug\\net8.0-windows\\win-x64\\lastScene\\Assets\\Textures\\FishWor0_d7fd24d1.bmp",
+          "enabled": true,
+          "uvChannel": 0,
+          "wrap": "Repeat",
+          "filter": "LinearMipmapLinear"
+        }
+      }
+    },
+    {
+      "name": "Glass_NoTex",
+      "baseColor": {
+        "x": 0.015,
+        "y": 0.16,
+        "z": 0.65,
+        "w": 1
+      },
+      "metallic": 0,
+      "roughness": 0.5,
+      "normalScale": 1,
+      "ambientOcclusion": 1,
+      "emissive": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "emissiveStrength": 1,
+      "opacity": 0.6,
+      "doubleSided": false,
+      "renderMode": "Transparent",
+      "alphaCutoff": 0.5,
+      "transmission": 0.95,
+      "indexOfRefraction": 1.5,
+      "thickness": 0.2,
+      "refractionStrength": 0.04,
+      "absorptionColor": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "textures": {}
+    },
+    {
+      "name": "Glass_NoText01",
+      "baseColor": {
+        "x": 0.015,
+        "y": 0.16,
+        "z": 0.65,
+        "w": 1
+      },
+      "metallic": 0,
+      "roughness": 0.5,
+      "normalScale": 1,
+      "ambientOcclusion": 1,
+      "emissive": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "emissiveStrength": 1,
+      "opacity": 0.6,
+      "doubleSided": false,
+      "renderMode": "Transparent",
+      "alphaCutoff": 0.5,
+      "transmission": 0.95,
+      "indexOfRefraction": 1.5,
+      "thickness": 0.2,
+      "refractionStrength": 0.04,
+      "absorptionColor": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "textures": {
+        "BaseColor": {
+          "path": "Assets\\Textures\\ChatGPT Image 2026\u5E747\u670811\u65E5 \u4E0A\u534808_59_42_f54be032.png",
+          "enabled": true,
+          "uvChannel": 0,
+          "wrap": "Repeat",
+          "filter": "LinearMipmapLinear"
+        }
+      }
+    },
+    {
+      "name": "Copper_C110",
+      "baseColor": {
+        "x": 0.96,
+        "y": 0.23,
+        "z": 0.045,
+        "w": 1
+      },
+      "metallic": 0.6,
+      "roughness": 0.049629167,
+      "normalScale": 1,
+      "ambientOcclusion": 1,
+      "emissive": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "emissiveStrength": 1,
+      "opacity": 1,
+      "doubleSided": false,
+      "renderMode": "Auto",
+      "alphaCutoff": 0.5,
+      "transmission": 0.95,
+      "indexOfRefraction": 1.5,
+      "thickness": 0.05,
+      "refractionStrength": 0.04,
+      "absorptionColor": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "textures": {}
+    },
+    {
+      "name": "O_Ring_Rubber",
+      "baseColor": {
+        "x": 0.008,
+        "y": 0.012,
+        "z": 0.016,
+        "w": 1
+      },
+      "metallic": 0,
+      "roughness": 0.5,
+      "normalScale": 1,
+      "ambientOcclusion": 1,
+      "emissive": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "emissiveStrength": 1,
+      "opacity": 1,
+      "doubleSided": false,
+      "renderMode": "Auto",
+      "alphaCutoff": 0.5,
+      "transmission": 0.95,
+      "indexOfRefraction": 1.5,
+      "thickness": 0.05,
+      "refractionStrength": 0.04,
+      "absorptionColor": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "textures": {}
+    },
+    {
+      "name": "T_Global_Color_Paint_Material",
+      "baseColor": {
+        "x": 1,
+        "y": 0.7529412,
+        "z": 0.5019608,
+        "w": 1
+      },
+      "metallic": 0.6,
+      "roughness": 0.049629167,
+      "normalScale": 1,
+      "ambientOcclusion": 1,
+      "emissive": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "emissiveStrength": 1,
+      "opacity": 1,
+      "doubleSided": false,
+      "renderMode": "Auto",
+      "alphaCutoff": 0.5,
+      "transmission": 0.95,
+      "indexOfRefraction": 1.5,
+      "thickness": 0.05,
+      "refractionStrength": 0.04,
+      "absorptionColor": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "textures": {}
+    }
+  ]
+}
